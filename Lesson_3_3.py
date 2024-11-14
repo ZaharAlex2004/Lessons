@@ -5,7 +5,7 @@ n = len(lst)
 
 if n % 2 == 0:
     s = n // 2
-else:
+elif n % 2 > 0:
     s = n // 2 + 1
 
 lt1, lt2 = lst[:s], lst[s:]
