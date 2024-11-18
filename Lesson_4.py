@@ -1,19 +1,27 @@
+#num = [0, 1, 0, 12, 3] #-> [1, 12, 3, 0, 0]
+#num = [0] #-> [0]
+#num = [1, 0, 13, 0, 0, 0, 5] #-> [1, 13, 5, 0, 0, 0, 0]
+#num = [9, 0, 7, 31, 0, 45, 0, 45, 0, 45, 0, 0, 96, 0] #-> [9, 7, 31, 45, 45, 45, 96, 0, 0, 0, 0, 0, 0, 0]
+
+
 num = [6, 0, 0, 2, 1, 0, 4, 0, 2, 2, 0, 8, 1]
 
 print("ДО:", num)
 
-lst = len(num) - 1
 f = 0
+lst = len(num) - 1
 i = 0
 
-while i < lst:
+while i <= lst:
     if num[i] > 0:
         num[i], num[f] = num[f], num[i]
         f += 1
-    if num[i] == 0:
+    elif num[i] < 0:
         num[i], num[lst] = num[lst], num[i]
         lst -= 1
         i -= 1
     i += 1
+
+
 
 print("ПОСЛЕ:", num)
