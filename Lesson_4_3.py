@@ -1,12 +1,10 @@
 import random
 
-lst = [4, 9, 3, 5, 7, 6]
-
-print("ДО: ", lst)
-
-lst1 = random.sample(lst * 2, 3)
-
-#for i in range(len(lst)):
-#    random.shuffle(lst)
-
-print("ПОСЛЕ: ", lst1)
+lst = [1, 2, 3, 4, 5, 6, 7, 9]
+#lst = [6, 3, 7]
+#lst = [1, 1, 2, 1]
+n = len(lst)
+for i in range(n):
+    lst.append(random.randint(3, 10))
+    lt1, lt2, lt3 = lst[0], lst[2], lst[-1]
+print([lt1, lt2, lt3])
