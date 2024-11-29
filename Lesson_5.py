@@ -1,11 +1,17 @@
 import keyword
-
-txt = input("Введите название: ")
+import string
 
 kwl = keyword.kwlist
 
+txt = input("Введите название: ")
 
-if txt.isidentifier() and txt[0] != '_' and not txt.count('__') and not txt.count('___') and txt.find("_") and txt not in kwl and txt.islower():
-    print(True)
+nums = string.digits
+
+for i in txt:
+    if i != i.upper() and txt.isidentifier() and txt not in kwl or i in nums or i in '_' and not (txt.count('__') or txt.count('___')):
+        pass
+    else:
+        print(False)
+        break
 else:
-    print(False)
+    print(True)
