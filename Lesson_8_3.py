@@ -1,10 +1,10 @@
+import collections
+
+
 def find_unique_value(some_list):
-    slt = some_list[-1]
-    if some_list.count(slt) == 1:
-        return slt
-    for pv in some_list:
-        if slt != pv:
-            return pv
+    for v, c in collections.Counter(some_list).items():
+        if c == 1:
+            return v
 
 
 fuv1 = find_unique_value([1, 2, 1, 1])
