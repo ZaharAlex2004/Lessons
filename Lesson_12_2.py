@@ -33,7 +33,7 @@ class Purchase:
     def __str__(self):
         tx = ''
         for item, cnt in self.products.items():
-            tx += f'{str(item)}: {cnt} pcs.\n'
+            tx += f'{str(item.name)}: {cnt} pcs.\n'
         return f'\nUser: {self.user}\nItems: \n{tx}'
 
     def get_total(self):
