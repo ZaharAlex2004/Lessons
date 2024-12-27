@@ -26,14 +26,12 @@ class Group:
         self.group = set()
 
     def add_student(self, student):
-        try:
-            if len(self.group) < 10:
-                if student not in self.group:
-                    self.group.add(student)
-            else:
-                raise ValueError("Максимальное количество студентов")
-        except ValueError as err:
-            print(f'{err}')
+        if len(self.group) < 10:
+            if student not in self.group:
+                self.group.add(student)
+        else:
+            raise ValueError("Максимальное количество студентов")
+
 
     def delete_student(self, last_name):
         deleting_ln = self.find_student(last_name)
@@ -73,12 +71,17 @@ gr.add_student(st7)
 gr.add_student(st8)
 gr.add_student(st9)
 gr.add_student(st10)
-gr.add_student(st11)
 
 print(gr)
+try:
+    gr.add_student(st11)
+except ValueError as err:
+    print(err)
+
 print(str(gr.find_student('Jobs')))
 print(isinstance(gr.find_student('Jobs'), Student))
 print(gr.find_student('Jobs2'))
+
 assert str(gr.find_student('Jobs')) == str(st1), 'Test1'
 assert gr.find_student('Jobs2') is None, 'Test2'
 assert isinstance(gr.find_student('Jobs'), Student) is True, 'Метод поиска должен возвращать экземпляр'
