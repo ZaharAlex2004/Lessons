@@ -75,8 +75,8 @@ gr.add_student(st10)
 print(gr)
 try:
     gr.add_student(st11)
-except ValueError as err:
-    print(err)
+except ValueError as e:
+    print(e)
 
 print(str(gr.find_student('Jobs')))
 print(isinstance(gr.find_student('Jobs'), Student))
