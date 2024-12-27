@@ -27,8 +27,7 @@ class Group:
 
     def add_student(self, student):
         if len(self.group) < 10:
-            if student not in self.group:
-                self.group.add(student)
+            self.group.add(student)
         else:
             raise ValueError("Максимальное количество студентов")
 
