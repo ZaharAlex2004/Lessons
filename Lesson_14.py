@@ -19,6 +19,14 @@ class Student(Human):
     def __str__(self):
         return f'{self.gender} {self.age} {self.first_name} {self.last_name} {self.record_book}'
 
+    def __eq__(self, other):
+        if not isinstance(other, Student):
+            return False
+        return str(self) == str(other)
+
+    def __hash__(self):
+        return hash(str(self))
+
 
 class Group:
     def __init__(self, number):
