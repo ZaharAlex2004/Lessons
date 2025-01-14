@@ -1,4 +1,4 @@
-import Lesson_14 as ls
+from Basic import Lesson_14 as ls
 
 st1 = ls.Student('Male', 30, 'Steve', 'Jobs', 'AN142')
 st2 = ls.Student('Female', 25, 'Liza', 'Taylor', 'AN145')
