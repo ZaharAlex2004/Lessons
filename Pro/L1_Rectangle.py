@@ -1,12 +1,22 @@
 class Rectangle:
+    """
+    Класс Rectangle используется для вычисления площади,
+    периметра и изменения размера прямоугольника. А также
+    определения квадрата или прямоугольника.
+
+    Attributes
+    ----------
+    width - ширина
+    height - высота
+    """
     def __init__(self, width, height):
         """
         Инициализация класса.
         :self.width = width: ширина
         :self.height = height: высота
         """
-        self.width = width  # Ширина
-        self.height = height  # Высота
+        self.width = width  # ширина
+        self.height = height  # высота
 
     def area(self):
         """
@@ -26,7 +36,7 @@ class Rectangle:
     def is_square(self):
         """
         Функция определения квадрата или прямоугольника.
-        Если self.width != self.height, то это прямоугольник (True),
+        Если self.width не равен self.height, то это прямоугольник (True),
         иначе - квадрат (False).
         """
         if self.width != self.height:
@@ -58,7 +68,7 @@ print('Периметр: ', rd.perimeter())  # Выводим периметр
 print(rd.is_square())  # Выводим его точность
 rd.resize(56, 20)  # Меняем размер
 # И снова выводим площадь
-print(rd) # Выводим ширину и высоту
-print('Площадь: ', rd.area()) # Выводим площадь
-print('Периметр: ', rd.perimeter()) # Выводим периметр
+print(rd)  # Выводим ширину и высоту
+print('Площадь: ', rd.area())  # Выводим площадь
+print('Периметр: ', rd.perimeter())  # Выводим периметр
 print(rd.is_square())  # Выводим его точность

@@ -1,5 +1,9 @@
-# Вычисление площади круга
+import math as mt
+"""
+Импорт модуля math как mt
+"""
 
+# Вычисление площади круга
 def calculate_circle_area(radius):
     """
     Здесь мы вычисляем площадь круга.
@@ -7,7 +11,7 @@ def calculate_circle_area(radius):
     число пи = 3.14
     Число пи умножаем на указанный радиус (После ввода), умноженый в 2 раза
     """
-    return 3.14 * radius ** 2
+    return mt.pi * radius ** 2
 
 
 rad = float(input("Введите радиус: "))  # Вводим радиус круга
