@@ -1,31 +1,54 @@
 # Создаём класс Прямоугольника
 class Rectangle:
     def __init__(self, width, height):
+        """
+        Инициализация класса.
+        :self.width = width: ширина
+        :self.height = height: высота
+        """
         self.width = width  # Ширина
         self.height = height  # Высота
 
-    # Вычисляем площадь
     def area(self):
+        """
+        Функция вычисления площади.
+        :return: произведение self.width и self.height
+        """
         return self.width * self.height
 
-    # Вычисляем периметр
     def perimeter(self):
+        """
+        Функция вычисления периметра.
+        Периметр - сумма длин всех сторон.
+        :return: в скобках сумма self.width и self.height и умножние на 2
+        """
         return 2 * (self.width + self.height)
 
-    # Определяем, квадрат или прямоугольник
     def is_square(self):
+        """
+        Функция определения квадрата или прямоугольника.
+        Если self.width != self.height, то это прямоугольник (True),
+        иначе - квадрат (False).
+        """
         if self.width != self.height:
-            return True  # Прямоугольник
+            return True
         else:
-            return False  # Квадрат
+            return False
 
-    # Изменяем размер прямоугольника
     def resize(self, new_width, new_height):
+        """
+        Функция изменения размера.
+        :self.width = new_width: новая ширина
+        :self.height = new_height: новая высота
+        """
         self.width = new_width
         self.height = new_height
 
-    # Для вывода ширины и высоты
     def __str__(self):
+        """
+        Функция вывода строки.
+        :return: выводится ширина и высота
+        """
         return f"ширина = {self.width}, высота = {self.height}"
 
 
