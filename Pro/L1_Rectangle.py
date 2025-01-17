@@ -1,4 +1,4 @@
-class Rectangle:
+class rectangle:
     """
     Класс Rectangle используется для вычисления площади,
     периметра и изменения размера прямоугольника. А также
@@ -61,7 +61,7 @@ class Rectangle:
         return f"ширина = {self.width}, высота = {self.height}"
 
 
-rd = Rectangle(30, 5)  # Назначаем ширину и высоту
+rd = rectangle(30, 5)  # Назначаем ширину и высоту
 print(rd)  # Выводим ширину и высоту
 print('Площадь: ', rd.area())  # Выводим площадь
 print('Периметр: ', rd.perimeter())  # Выводим периметр
