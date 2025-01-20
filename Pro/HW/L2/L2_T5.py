@@ -5,7 +5,7 @@ class MutableClass:
     def __init__(self):
         self.__dict__ = {}
 
-    def add_attribute(self, name, value):
+    def add_attribute(self, name: str, value: str):
         """
         Добавление атрибутов
         :param name:
@@ -15,7 +15,7 @@ class MutableClass:
         setattr(self, name, value)
 
 
-    def remove_attribute(self, name):
+    def remove_attribute(self, name: str):
         """
         Удаление атрибутов.
         :param name:

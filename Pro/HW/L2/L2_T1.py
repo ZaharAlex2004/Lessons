@@ -2,7 +2,7 @@ class MyClass:
     """
     Класс MyClass.
     """
-    def __init__(self, value):
+    def __init__(self, value: str):
         """
         Конструктор класса MyClass.
         :param:value

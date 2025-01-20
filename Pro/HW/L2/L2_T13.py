@@ -2,7 +2,7 @@ class AutoMethodMeta(type):
     """
     Метакласс AutoMethodMeta.
     """
-    def __new__(cls, name, bases, dct):
+    def __new__(cls, name: str, bases: tuple, dct: dict):
         """
         Функция создания.
         :param name:
@@ -28,7 +28,7 @@ class AutoMethodMeta(type):
         return super().__new__(cls, name, bases, dct)
 
     @staticmethod
-    def _create_getter(attribute):
+    def _create_getter(attribute: str):
         """
         Функция применения атрибутов.
         :param attribute:
@@ -45,13 +45,13 @@ class AutoMethodMeta(type):
         return getter
 
     @staticmethod
-    def _create_setter(attribute):
+    def _create_setter(attribute: str):
         """
         Функция установки атрибутов.
         :param attribute:
         :return:
         """
-        def setter(setting, value):
+        def setter(setting, value: int):
             """
             Устанавливаем атрибуты.
             :param setting:

@@ -22,7 +22,7 @@ methods = {
 }
 
 
-def create_class(class_name, methods):
+def create_class(class_name: str, methods: dict):
     return type(class_name, (object,), methods)
 
 

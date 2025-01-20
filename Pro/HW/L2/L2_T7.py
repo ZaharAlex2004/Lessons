@@ -11,7 +11,7 @@ def log_method(method):
     return wrapper
 
 
-def log_methods(cls):
+def log_methods(cls: type):
     """
     Функция проверки атрибутов.
     :param cls:

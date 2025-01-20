@@ -4,7 +4,7 @@ class SingletonMeta(type):
     """
     _instances = {}  # Словарь для хранения экземпляров классов
 
-    def __call__(cls, *args, **kwargs):
+    def __call__(cls, *args: str, **kwargs: dict):
         """
         Функция вызова.
         :param args:

@@ -2,7 +2,7 @@ class LoggingMeta(type):
     """
     Метакласс LoggingMeta.
     """
-    def __new__(cls, name, bases, dct):
+    def __new__(cls, name: str, bases: tuple, dct: dict):
         """
         Функция создания.
         :param name:
@@ -13,7 +13,7 @@ class LoggingMeta(type):
 
         original_getattr = cls.__getattribute__
 
-        def __getattribute__(self, get):
+        def __getattribute__(self, get: str):
             """
             Функция извлечения значения.
             :param self:
@@ -26,7 +26,7 @@ class LoggingMeta(type):
 
         original_setattr = cls.__setattr__
 
-        def __setattr__(self, set, value):
+        def __setattr__(self, set: str, value: str):
             """
             Функция установки атрибута.
             :param self:
@@ -48,7 +48,7 @@ class MyClass(metaclass=LoggingMeta):
     """
     Класс MyClass.
     """
-    def __init__(self, name):
+    def __init__(self, name: str) -> str:
         """
         Инициализация класса.
         :param name:

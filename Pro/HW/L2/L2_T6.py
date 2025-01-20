@@ -2,7 +2,7 @@ class MyClass:
     """
     Класс MyClass.
     """
-    def greet(self, name):
+    def greet(self, name: str):
         """
         Функция приветствия.
         :param name:
@@ -22,7 +22,7 @@ class Proxy:
         """
         self._obj = obj
 
-    def __getattr__(self, name):
+    def __getattr__(self, name: str):
         """
         Функция приёма атрибута.
         :param name:
@@ -31,7 +31,7 @@ class Proxy:
         attr = getattr(self._obj, name)
 
         if callable(attr):
-            def wrapped(*args, **kwargs):
+            def wrapped(*args: str, **kwargs: dict):
                 """
                 Функция проверки, является ли атрибут методом.
                 :param args:

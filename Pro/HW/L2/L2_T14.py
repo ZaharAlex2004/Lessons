@@ -2,7 +2,7 @@ class TypeCheckedMeta(type):
     """
     Метакласс TypeCheckedMeta.
     """
-    def __new__(cls, name, bases, dct):
+    def __new__(cls, name: str, bases: tuple, dct: dict):
         """
         Функция создания.
         :param name:
@@ -12,7 +12,7 @@ class TypeCheckedMeta(type):
         annotations = dct.get('__annotations__', {})
         original_setattr = dct.get('__setattr__', object.__setattr__)
 
-        def __setattr__(self, name, value):
+        def __setattr__(self, name: str, value: str):
             """
             Функция установки атрибута.
             :param self:

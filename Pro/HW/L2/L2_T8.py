@@ -1,7 +1,7 @@
 import inspect
 
 
-def analyze_inheritance(cls):
+def analyze_inheritance(cls: type):
     """
     Анализ наследования.
     :param cls:

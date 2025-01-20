@@ -3,7 +3,7 @@ class Calculator:
     Класс Calculator.
     Используются функции add(), subtract().
     """
-    def add(self, a, b):
+    def add(self, a: int | float, b: int | float):
         """
         Функция сложения.
         :param a:
@@ -12,7 +12,7 @@ class Calculator:
         """
         return a + b
 
-    def subtract(self, a, b):
+    def subtract(self, a: int | float, b: int | float):
         """
         Функция вычитания.
         :param a:
@@ -22,7 +22,7 @@ class Calculator:
         return a - b
 
 
-def call_function(obj, method_name, *args):
+def call_function(obj, method_name: str, *args):
     """
     Функция вызова.
     :param obj:
@@ -44,6 +44,7 @@ def call_function(obj, method_name, *args):
             raise AttributeError(f'{method_name} не считается методом')
     except AttributeError as e:
         print(f'AttributeError: {e}')
+    print(type(obj))
 
 
 calc = Calculator()

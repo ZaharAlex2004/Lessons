@@ -8,7 +8,7 @@ class DynamicProperties:
         """
         self._properties = {}
 
-    def add_property(self, name, default_value=None):
+    def add_property(self, name: str, default_value=None):
         """
         Метод для добавления нового свойства.
         :param name:
@@ -24,7 +24,7 @@ class DynamicProperties:
             return self._properties.get(name, default_value)
 
         # Используем сеттер для установки нового значения
-        def setter(self, value):
+        def setter(self, value: str):
             """
             Функция установки атрибута.
             :param self:
