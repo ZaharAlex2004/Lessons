@@ -1,8 +1,11 @@
+from typing import Callable, Any
+
+
 class AutoMethodMeta(type):
     """
     Метакласс AutoMethodMeta.
     """
-    def __new__(cls, name: str, bases: tuple, dct: dict):
+    def __new__(cls, name: str, bases: tuple, dct: dict) -> type:
         """
         Функция создания.
         :param name:
@@ -28,13 +31,13 @@ class AutoMethodMeta(type):
         return super().__new__(cls, name, bases, dct)
 
     @staticmethod
-    def _create_getter(attribute: str):
+    def _create_getter(attribute: str) -> Callable[..., Any]:
         """
         Функция применения атрибутов.
         :param attribute:
         :return:
         """
-        def getter(get):
+        def getter(get: "AutoMethodMeta") -> "AutoMethodMeta":
             """
             Применяем атрибуты.
             :param get:
@@ -45,13 +48,13 @@ class AutoMethodMeta(type):
         return getter
 
     @staticmethod
-    def _create_setter(attribute: str):
+    def _create_setter(attribute: str) -> Callable[..., Any]:
         """
         Функция установки атрибутов.
         :param attribute:
         :return:
         """
-        def setter(setting, value: int):
+        def setter(setting: "AutoMethodMeta", value: int) -> None:
             """
             Устанавливаем атрибуты.
             :param setting:

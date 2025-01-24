@@ -2,20 +2,20 @@ class DynamicProperties:
     """
     Класс динамического добавление свойств.
     """
-    def __init__(self):
+    def __init__(self) -> None:
         """
         Инициализация динамического добавление свойства.
         """
         self._properties = {}
 
-    def add_property(self, name: str, default_value=None):
+    def add_property(self, name: str, default_value=None) -> None:
         """
         Метод для добавления нового свойства.
         :param name:
         :param default_value:
         :return:
         """
-        def getter(self):
+        def getter(self) -> str:
             """
             Функция извлечения значения.
             :param self:
@@ -24,7 +24,7 @@ class DynamicProperties:
             return self._properties.get(name, default_value)
 
         # Используем сеттер для установки нового значения
-        def setter(self, value: str):
+        def setter(self, value: str) -> None:
             """
             Функция установки атрибута.
             :param self:

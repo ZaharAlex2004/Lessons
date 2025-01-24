@@ -2,7 +2,7 @@ class LimitedAttributesMeta(type):
     """
     Метакласс LimitedAttributesMeta.
     """
-    def __new__(cls, name: str, bases: tuple, dct: dict):
+    def __new__(cls, name: str, bases: tuple, dct: dict) -> type:
         """
         Функця создания нового класса.
         :param name:

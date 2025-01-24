@@ -2,7 +2,7 @@ import importlib
 import inspect
 
 
-def analyze_module(txt: str):
+def analyze_module(txt: str) -> None:
     """
     Функция анализа модуля.
     :param txt:

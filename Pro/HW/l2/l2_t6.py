@@ -1,8 +1,11 @@
+from typing import Callable, Any
+
+
 class MyClass:
     """
     Класс MyClass.
     """
-    def greet(self, name: str):
+    def greet(self, name: str) -> str:
         """
         Функция приветствия.
         :param name:
@@ -15,14 +18,14 @@ class Proxy:
     """
     Класс Proxy.
     """
-    def __init__(self, obj):
+    def __init__(self, obj) -> None:
         """
         Инициализация класса.
         :param obj:
         """
         self._obj = obj
 
-    def __getattr__(self, name: str):
+    def __getattr__(self, name: str) -> Callable[..., Any]:
         """
         Функция приёма атрибута.
         :param name:
@@ -31,7 +34,7 @@ class Proxy:
         attr = getattr(self._obj, name)
 
         if callable(attr):
-            def wrapped(*args: str, **kwargs: dict):
+            def wrapped(*args: str, **kwargs: dict) -> str:
                 """
                 Функция проверки, является ли атрибут методом.
                 :param args:

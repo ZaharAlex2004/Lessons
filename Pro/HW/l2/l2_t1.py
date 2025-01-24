@@ -2,14 +2,14 @@ class MyClass:
     """
     Класс MyClass.
     """
-    def __init__(self, value: str):
+    def __init__(self, value: str) -> None:
         """
         Конструктор класса MyClass.
         :param:value
         """
         self.value = value
 
-    def say_hello(self):
+    def say_hello(self) -> str:
         """
         Функция возвращения строки приветствия.
         :return:
@@ -17,7 +17,7 @@ class MyClass:
         return f"Hello, {self.value}"
 
 
-def analyze_object(obj):
+def analyze_object(obj) -> None:
     """
     Функция анализа объектов.
     :param obj:

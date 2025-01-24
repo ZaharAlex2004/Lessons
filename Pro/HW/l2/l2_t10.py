@@ -4,7 +4,7 @@ class SingletonMeta(type):
     """
     _instances = {}  # Словарь для хранения экземпляров классов
 
-    def __call__(cls, *args: str, **kwargs: dict):
+    def __call__(cls, *args: str, **kwargs: dict) -> str:
         """
         Функция вызова.
         :param args:
@@ -24,7 +24,7 @@ class Singleton(metaclass=SingletonMeta):
     """
     Класс Singleton.
     """
-    def __init__(self):
+    def __init__(self) -> None:
         print("Creating instance")
 
 

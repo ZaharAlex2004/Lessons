@@ -1,17 +1,20 @@
-def log_method(method):
+from typing import Callable, Any
+
+
+def log_method(method: Callable[..., Any]) -> Callable[..., Any]:
     """
     Функция логирования меттода.
     :param method:
     :return:
     """
     # Декоратор для логирования вызова метода
-    def wrapper(self, *args, **kwargs):
+    def wrapper(self, *args: tuple, **kwargs: tuple) -> Any:
         print(f"Logging: {method.__name__} called with {args}")
         return method(self, *args, **kwargs)
     return wrapper
 
 
-def log_methods(cls: type):
+def log_methods(cls: type) -> type:
     """
     Функция проверки атрибутов.
     :param cls:
@@ -30,7 +33,7 @@ class MyClass:
     """
     Вычислительный класс.
     """
-    def add(self, a, b):
+    def add(self, a: int, b: int) -> int:
         """
         Функция сложения.
         :param a:
@@ -39,7 +42,7 @@ class MyClass:
         """
         return a + b
 
-    def subtract(self, a, b):
+    def subtract(self, a: int, b: int) -> int:
         """
         Функция вычитания.
         :param a:

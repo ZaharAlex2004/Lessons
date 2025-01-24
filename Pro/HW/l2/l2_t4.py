@@ -1,4 +1,4 @@
-def say_hello(self):
+def say_hello(self) -> str:
     """
     Функция приветствия.
     :param self:
@@ -7,7 +7,7 @@ def say_hello(self):
     return "Hello!"
 
 
-def say_goodbye(self):
+def say_goodbye(self) -> str:
     """
     Функция прощание.
     :param self:
@@ -22,7 +22,7 @@ methods = {
 }
 
 
-def create_class(class_name: str, methods: dict):
+def create_class(class_name: str, methods: dict) -> type:
     return type(class_name, (object,), methods)
 
 

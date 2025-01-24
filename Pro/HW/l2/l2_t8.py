@@ -1,7 +1,7 @@
 import inspect
 
 
-def analyze_inheritance(cls: type):
+def analyze_inheritance(cls: type) -> None:
     """
     Анализ наследования.
     :param cls:
@@ -35,7 +35,7 @@ class Parent:
     """
     Родительский класс.
     """
-    def parent_method(self):
+    def parent_method(self) -> "Parent":
         """
         Родительский метод.
         :return:
@@ -47,7 +47,7 @@ class Child(Parent):
     """
     Наследственный класс.
     """
-    def child_method(self):
+    def child_method(self) -> "Child":
         """
         Наследный метод.
         :return:
