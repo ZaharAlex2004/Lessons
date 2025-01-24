@@ -1,4 +1,4 @@
-class rectangle:
+class Rectangle:
     """
     Класс Rectangle используется для вычисления площади,
     периметра и изменения размера прямоугольника. А также
@@ -9,7 +9,7 @@ class rectangle:
     width - ширина
     height - высота
     """
-    def __init__(self, width, height):
+    def __init__(self, width: float, height: float) -> None:
         """
         Инициализация класса.
         :self.width = width: ширина
@@ -18,14 +18,14 @@ class rectangle:
         self.width = width  # ширина
         self.height = height  # высота
 
-    def area(self):
+    def area(self) -> float:
         """
         Функция вычисления площади.
         :return: произведение self.width и self.height
         """
         return self.width * self.height
 
-    def perimeter(self):
+    def perimeter(self) -> float:
         """
         Функция вычисления периметра.
         Периметр - сумма длин всех сторон.
@@ -33,7 +33,7 @@ class rectangle:
         """
         return 2 * (self.width + self.height)
 
-    def is_square(self):
+    def is_square(self) -> bool:
         """
         Функция определения квадрата или прямоугольника.
         Если self.width не равен self.height, то это прямоугольник (True),
@@ -44,7 +44,7 @@ class rectangle:
         else:
             return False
 
-    def resize(self, new_width, new_height):
+    def resize(self, new_width: float, new_height: float) -> None:
         """
         Функция изменения размера.
         :self.width = new_width: новая ширина
@@ -61,7 +61,7 @@ class rectangle:
         return f"ширина = {self.width}, высота = {self.height}"
 
 
-rd = rectangle(30, 5)  # Назначаем ширину и высоту
+rd = Rectangle(30, 5)  # Назначаем ширину и высоту
 print(rd)  # Выводим ширину и высоту
 print('Площадь: ', rd.area())  # Выводим площадь
 print('Периметр: ', rd.perimeter())  # Выводим периметр

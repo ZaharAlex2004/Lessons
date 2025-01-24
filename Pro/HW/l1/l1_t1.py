@@ -1,10 +1,12 @@
 import math as mt
+
 """
 Импорт модуля math как mt
 """
 
+
 # Вычисление площади круга
-def calculate_circle_area(radius):
+def calculate_circle_area(radius: float) -> float:
     """
     Здесь мы вычисляем площадь круга.
     radius - радиус круга
