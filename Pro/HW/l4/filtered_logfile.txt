@@ -1,0 +1,6 @@
+! [ERROR] --- Failed to load script as_utjan_lockpicking_skill
+!ERROR get_object_by_id | no game object recieved from id (27922) [2]
+! [ERROR] --- Failed to load script as_utjan_lockpicking_skill
+! [ERROR] --- Failed to load script as_utjan_lockpicking_skill
+! [ERROR] --- Failed to load script as_utjan_lockpicking_skill
+! [ERROR] --- Failed to load script as_utjan_lockpicking_skill
