@@ -2,6 +2,9 @@ import csv
 
 
 class MyDialect(csv.Dialect):
+    """
+    Класс MyDialect.
+    """
     delimiter = ';'
     quotechar = '"'
     lineterminator = '\n'

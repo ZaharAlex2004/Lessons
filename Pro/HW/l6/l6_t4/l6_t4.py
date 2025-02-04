@@ -2,11 +2,21 @@ import json
 
 
 def book_load(file):
+    """
+    Загрузка книг.
+    :param file:
+    :return:
+    """
     with open(file, 'r', encoding='utf-8') as file:
         return json.load(file)
 
 
 def now_book(file):
+    """
+    Вывод доступных книг.
+    :param file:
+    :return:
+    """
     books = book_load(file)
     print("Доступні книги")
     for book in books:
@@ -15,6 +25,12 @@ def now_book(file):
 
 
 def add_book(file, new):
+    """
+    Добавление книг.
+    :param file:
+    :param new:
+    :return:
+    """
     books = book_load(file)
     books.append(new)
     with open(file, 'w', encoding='utf-8') as file:

@@ -2,6 +2,11 @@ import xml.etree.ElementTree as ET
 
 
 def product(files):
+    """
+    Выводим продукты.
+    :param files:
+    :return:
+    """
     tree = ET.parse(files)
     root = tree.getroot()
 
@@ -13,6 +18,13 @@ def product(files):
 
 
 def new_quant(xml_p, product_name, new_q):
+    """
+    Добавляем количество.
+    :param xml_p:
+    :param product_name:
+    :param new_q:
+    :return:
+    """
     tree = ET.parse(xml_p)
     root = tree.getroot()
 

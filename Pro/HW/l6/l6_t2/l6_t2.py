@@ -2,6 +2,12 @@ import requests
 
 
 def page(url, filename):
+    """
+    Перезапись страницы.
+    :param url:
+    :param filename:
+    :return:
+    """
     try:
         response = requests.get(url)
 
