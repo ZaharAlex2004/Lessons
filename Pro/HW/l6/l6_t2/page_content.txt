@@ -1,0 +1,803 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+	<meta name="Description" content="Харьков транспортный - пассажирский транспорт города Харьков и Харьковской области">
+	<meta name="KeyWords" lang="ru" content="Харьков, Харьковская, область, транспорт, расписания, маршрут, схема, подвижной, состав, история, фотографии, метро, метрополитен, трамвай, троллейбус, автобус, южная, железная, дорога, авиатранспорт">
+	<meta name="KeyWords" lang="en" content="Kharkov, subway, tram, troleybus, bus, transport">
+	<meta name="Author" content="Andrew Rybka">
+	<meta name="robots" content="index, follow">
+	<meta name="google-site-verification" content="oj5yfxCALUe_G4TnfneBVYP26hUqH50Vn5viDJq9iqk" />
+		<link rel="STYLESHEET" href="/style/common.css" type="text/css">
+	<link rel="STYLESHEET" href="/style/default.css" type="text/css">
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://gortransport.kharkov.ua/news/rss/index.xml">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="https://gortransport.kharkov.ua/photobase/rss/index.xml">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/favicon.gif" type="image/gif">
+	<link rel="icon" href="/favicon.gif" type="image/gif">
+	<title>Харьков транспортный</title>
+    	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/javascript/JsHttpRequest.js" ></script>
+<script type="text/javascript" src="/javascript/common.js" ></script>
+<script type="text/javascript" src="/javascript/main_menu.js" ></script>
+<script type="text/javascript" src="/javascript/JsHttpRequest.js" ></script>
+<script type="text/javascript" src="/javascript/common.js" ></script>
+<script type="text/javascript" src="/javascript/main.js" ></script>
+</head>
+<body>
+
+
+	<div id="main">
+		<div id="header">
+			<div id="additional_menu">
+				<ul>
+					<li class="first" id="menu_news"><a href="/news/index.html">новости</a></li>
+					<li id="menu_photobase"><a href="/photobase/index.html">фотогалерея</a></li>
+					<li id="menu_site"><a href="/site/index.html">о сайте</a></li>
+					<li id="menu_links"><a href="/links/index.html">ссылки</a></li>
+					<li><a href="/forum/index.php">форум</a></li>
+					<li><a href="/guestbook/index.html">гостевая</a></li>
+				</ul>
+			</div>
+			<table id="logo_table" cellspacing="0">
+			<tr>
+				<td id="logo_td"><a href="/" title="На главную"><IMG id="logo" src="/img/logo.gif" alt=""></a></td>
+				<td id="search_td"><style type="text/css">div.b-yandexbox * { font-size: 14px !important; margin: 0 !important; } div.b-yandexbox a img { border: 0 !important; } div.b-yandexbox input, div.b-yandexbox label { vertical-align: middle; } div.b-yandexbox table { font-size: 14px; width: 100%; border-collapse: collapse; border: 0; background: #FFCC00; } div.b-yandexbox table td { padding: 7px 0 6px 0; white-space: nowrap; vertical-align: middle; } div.b-yandexbox .b-yandexbox-image { padding: 6px 6px 0 6px; } div.b-yandexbox .b-yandexbox-search { width: 100%; padding: 0 6px; } div.b-yandexbox .b-yandexbox-search table { margin: 0; padding: 0; background: none; } div.b-yandexbox .b-yandexbox-search .b-yandexbox-txt { width: 100%; padding-right: 6px; } div.b-yandexbox .b-yandexbox-text { position: relative; width: 100%; } div.b-yandexbox .b-yandexbox-text input { float: left; width: 100%; padding-right: 0; border: 1px solid #7f9db9; } div.b-yandexbox .b-yandexbox-search .b-yandexbox-submit { padding: 0; } div.b-yandexbox .b-hint-input { position: absolute; z-index: 100; left: 0; display: none; width: 30px; height: 11px; margin: 0.16em 0.2em !important; cursor: text; line-height: 0; background: url(https://site.yandex.ru/i/ysearch_small.png) no-repeat; } div.b-yandexbox .button-search { width: 19px; height: 15px; outline: none; cursor: pointer; border: none; background: url(https://site.yandex.ru/i/search.png) no-repeat; }</style><!--[if lte IE 8]><style type="text/css">*:first-child+html div.b-yandexbox .b-hint-input { position: absolute; margin-top: 4px !important; } * html div.b-yandexbox .b-hint-input { position: relative; bottom: -0.5em; left: 0.3em; float: left; display: block; margin: 0 0 -1em !important; }</style><![endif]--><script type="text/javascript">/*<![CDATA[*/(function(Lego){ if (!Lego) Lego = window.Lego = {}; Lego.clean = function(a) { var p = a.previousSibling; if (p) { a.onblur = function() { if (!a.value) { p.style.top = ""; } }; p.style.top = "-9999px"; } }; Lego.cleanIfNotEmpty = function(id) { var e = document.getElementById(id); e.previousSibling.style.display = "block"; var f = function() { if (e.value) { Lego.clean(e); } }; setInterval(f, 100); }; })(window.Lego);/*]]>*/</script>
+<div class="b-yandexbox"><form method="get" action="https://gortransport.kharkov.ua/site/search/index.html"><table><tr><td class="b-yandexbox-search"><table><tr><td class="b-yandexbox-txt"><div class="b-yandexbox-text"><label for="yandexbox-text" class="b-hint-input" onfocus="Lego.clean(this)" title="Яндекс"></label><input name="text" id="yandexbox-text" onfocus="Lego.clean(this)"/></div><script type="text/javascript">Lego.cleanIfNotEmpty("yandexbox-text")</script></td><td class="b-yandexbox-submit"><input type="hidden" name="searchid" value="124977"/><input class="button-search" type="submit" value=""/></td></tr></table></td></tr></table></form></div></td>
+			</tr>
+			</table>
+			<div id="main_menu">
+				<div style="float: left;">
+					<ul>
+						<li class="first" id="menu_subway"><a href="/subway/index.html">метро</a></li>
+						<li id="menu_tram"><a href="/tram/index.html">трамвай</a></li>
+						<li id="menu_trol"><a href="/trol/index.html">троллейбус</a></li>
+						<li id="menu_bus"><a href="/bus/index.html">автобус</a></li>
+						<li id="menu_railway"><a href="/railway/index.html">жд транспорт</a></li>
+						<li id="menu_avia"><a href="/avia/index.html">авиатранспорт</a></li>
+						<li id="menu_misc"><a href="/misc/index.html">разное</a></li>
+					</ul>
+				</div>
+				<div id="main_buttons"><a
+					href="/" title="На главную"><img
+						id="button_home" src="/img/button_home.gif" border="0" width="26" height="26" alt="На главную"></a><a
+					href="mailto:info@gortransport.kharkov.ua" title="Наш e-mail"><img
+						id="button_email" src="/img/button_email.gif" border="0" width="23" height="26" alt="Наш e-mail"></a><a
+					href="/site/map/index.html" title="Карта сайта"><img
+						id="button_site_map" src="/img/button_sitemap.gif" border="0" width="22" height="26" alt="Карта сайта"></a><img
+					src="/img/blank.gif" width="8" height="1" alt=""></div>
+			</div>
+		</div>
+
+		<div class="clearer"></div>
+
+		<div class="banners"><noindex><div class="banner_small"><a href="/city_routes/464/"><img src="/img/banners/20210406_Tb50.png" width="245" height="90" border="0"/></a></div></noindex><div id="banner" class=""><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 728x90 green -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-6849663458066373"
+     data-ad-slot="2632729066"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>		</div>
+
+		<div class="clearer"></div>
+
+		<div id="content">
+			<index><div style="text-align: center" align="center">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+
+<tr>
+	<td width="75%" rowspan="2" style="padding-right: 8px;">
+		<table class="main_box centered">
+		<tr><th colspan="3"><strong>Уникальные цветные фотографии трамваев (Харьков, 1959 год):</strong></th></tr>
+		<tr>
+						<td><a href="/photobase/536/" title=""><img src="/tram/ps/x/photo/khr_x_386_19590713_x1_s.jpg" width="115" height="75"  style="border: 1px solid black;" alt="Поїзд &quot;Х&quot;-&quot;М&quot; #386-711 7-го маршруту на вулиці Сумській"/></a></td>
+			<td><a href="/photobase/507/" title=""><img src="/tram/ps/ktm1/photo/khr_ktm1_534_19590713_x1_s.jpg" width="115" height="75"  style="border: 1px solid black;" alt="Поїзди КТМ-1/КТП-1 #534-584 20-го маршруту та #526-576 5-го маршруту на кінцевій станції &quot;Міськпарк&quot;"/></a></td>
+			<td><a href="/photobase/515/" title=""><img src="/tram/ps/mtv82/photo/khr_mtv82_803_19590713_x1_s.jpg" width="115" height="75"  style="border: 1px solid black;" alt="МТВ-82 #803 9-го маршруту на вулиці Свердлова біля Лопанського мосту"/></a></td>
+		</tr>
+		<tr><td colspan="3" style="padding: 2px; background-color: #ffffff; text-align: center;"><a class="bluelink8" href="/tram/photobase/old_color/index.html">Смотреть все фотографии (24 фото)...</a></td></tr>
+		</table>
+
+		<table class="main_box">
+		<tr><th>Маршруты городского транспорта:</th></tr>
+		<tr><td>
+			<table border="0" cellspacing="0" cellpadding="0" >
+			<tr><td style="padding: 2; vertical-align: middle; text-align: right; border: 0;"><span class="boldsp8">Списки маршрутов:&nbsp;</span></td>
+			<td style="padding: 2; vertical-align: middle; text-align: left; border: 0;">
+			[&nbsp;<a class="bluelink8" href="/tram/routes/index.html">трамвай</a>&nbsp;
+			|&nbsp;<a class="bluelink8" href="/trol/routes/index.html">троллейбус</a>&nbsp;
+			|&nbsp;<a class="bluelink8" href="/bus/routes/index.html">автобус</a>&nbsp;]</td>
+			</tr>
+
+			<form method="get" name="streets_form" enctype="multipart/form-data" action="/city_routes/" onsubmit="return redirectBySelect(event, 'routes_select', 'city_routes');">
+			<tr>
+				<td style="padding: 2; vertical-align: middle; text-align: right; border: 0;"><span class="boldsp8">Инфо о маршруте:</span>&nbsp;</td>
+				<td style="border: 0; padding: 2;">
+					<select id="routes_select" style="font-size: 8pt; width: 325px;" name="id"
+						onclick="getRoutesOptions(this);">
+						<option value="">== Показать список ==</option>
+					</select>&nbsp;<input
+					id="routes_select_submit" style="font-size: 8pt; border-style: outset;" type="submit" value="Перейти">
+				</td>
+			</tr>
+			</form>
+
+			<tr>
+				<td colspan="2" style="padding: 0; vertical-align: middle; text-align: left; border: 0;"><br></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="padding: 2; vertical-align: middle; text-align: left; border: 0;"><span class="boldsp8">Показать&nbsp;маршруты по...</span></td>
+			</tr>
+
+			<form method="get" name="streets_form" enctype="multipart/form-data" action="/streets/" onsubmit="return redirectBySelect(event, 'streets_select', 'streets');">
+			<tr>
+				<td style="padding: 2; vertical-align: middle; text-align: right; border: 0;"><span class="boldsp8">улице:</span>&nbsp;</td>
+				<td style="border: 0; padding: 2;">
+					<select id="streets_select" style="font-size: 8pt; width: 325px;" name="id"
+						onclick="getStreetsOptions(this);">
+						<option value="">== Показать список ==</option>
+					</select>&nbsp;<input
+					id="streets_select_submit" style="font-size: 8pt; border-style: outset;" type="submit" value="Перейти">
+				</td>
+			</tr>
+			</form>
+
+			<form method="get" name="ks_form" enctype="multipart/form-data" action="/city_routes/ks/" onsubmit="return redirectBySelect(event, 'ks_select', 'city_routes/ks');">
+			<tr>
+				<td style="padding: 2; vertical-align: middle; text-align: right; border: 0;"><span class="boldsp8">конечной:</span>&nbsp;</td><td style="border: 0; padding: 2;">
+					<select id="ks_select" style="font-size: 8pt; width: 325px;" name="id"
+						onclick="getKsOptions(this);">
+						<option value="">== Показать список ==</option>
+					</select>&nbsp;<input
+					id="ks_select_submit" style="font-size: 8pt; border-style: outset;" type="submit" value="Перейти">
+				</td>
+			</tr>
+			</form>
+
+			<form method="get" name="subway_form" enctype="multipart/form-data" action="/subway/stations/" onsubmit="return redirectBySelect(event, 'subway_stations_select', 'subway/stations', {action: 'not_routes'});">
+			<tr>
+				<td style="padding: 2; vertical-align: middle; text-align: right; border: 0;"><span class="boldsp8">станции метро:</span>&nbsp;</td><td style="border: 0; padding: 2;">
+					<select id="subway_stations_select" style="font-size: 8pt; width: 325px;" name="id"
+						onclick="getSubwayStationsOptions(this);">
+						<option value="">== Показать список ==</option>
+					</select>&nbsp;<input
+					id="subway_stations_select_submit" style="font-size: 8pt; border-style: outset;" type="submit" value="Перейти">
+				</td>
+			</tr>
+			</form>
+
+			<tr><td colspan="2" style="padding: 2; vertical-align: middle; text-align: left; border: 0;">Примечание: в скобках указано количество маршрутов</td><td style="border: 0; padding: 2;">
+			<tr><td colspan="2" style="padding: 0; vertical-align: middle; text-align: left; border: 0;"><br></td></tr>
+			<tr><td style="padding: 2; vertical-align: middle; text-align: left; border: 0;"><a class="bluelink8" href="/city_routes/">Обобщающая страница...</a></td></tr>
+			</table>
+
+		</td></tr>
+		</table>
+
+		<table class="main_box">
+		<tr><th colspan="3">Расписания:</th></tr>
+		<tr>
+		<td width="33%" rowspan="2">
+			<div class="shed_8">
+			<span>Поезда дальнего следования</span>
+			<br />(от 11.08.2019)
+			<ul class="items_list"><li><a href="/railway/shedules/pds/kiev/index.html" title="">На Киев, Львов, Минск ...</a></li><li><a href="/railway/shedules/pds/odessa_kherson/index.html" title="">На Одессу, Херсон...</a></li><li><a href="/railway/shedules/pds/south/index.html" title="">На Запорожье, Днепр, Геническ...</a></li><li><a href="/railway/shedules/pds/donbass/index.html" title="">На Донбасс...</a></li><li><a href="/railway/shedules/pds/moscow/index.html" title="">На Москву, Санкт-Петербург, Баку...</a></li></ul><!--		<a href="/railway/shedules/pds_cars.php">Прицепные вагоны...</a> -->
+			<a href="/railway/shedules/pds_fare/">Стоимость проезда...</a>
+			</div>
+		</td>
+
+		<td width="33%" rowspan="2">
+			<div class="shed_8">
+				<span>Пригородные поезда</span>
+				<br/>(от 11.08.2019)
+				<ul class="items_list"><li><a href="/railway/stations/1/shedule_suburban/" title="Посмотреть расписание пригородных поездов по данной станции...">Харків-Пасажирський...</a></li><li><a href="/railway/stations/2/shedule_suburban/" title="Посмотреть расписание пригородных поездов по данной станции...">Харків-Левада...</a></li><li><a href="/railway/stations/3/shedule_suburban/" title="Посмотреть расписание пригородных поездов по данной станции...">Харків-Слобідський...</a></li><li><a href="/railway/stations/4/shedule_suburban/" title="Посмотреть расписание пригородных поездов по данной станции...">Лосеве-I...</a></li></ul>				<ul class="items_list"><li><a href="/railway/shedules/suburban/belgorod/index.html" title="">Казачанское направление...</a></li><li><a href="/railway/shedules/suburban/zolochev/index.html" title="">Золочевское направление...</a></li><li><a href="/railway/shedules/suburban/lubotin/index.html" title="">Люботинское направление...</a></li><li><a href="/railway/shedules/suburban/merefa/index.html" title="">Мерефянское направление...</a></li><li><a href="/railway/shedules/suburban/izum/index.html" title="">Изюмское направление...</a></li><li><a href="/railway/shedules/suburban/chuguev/index.html" title="">Чугуевское направление...</a></li></ul>				<a href="/railway/shedules/suburban_zones/fare/">Стоимость проезда...</a>
+				<br/><a href="/railway/shedules/suburban_zones/">Тарифные зоны...</a>
+			</div>
+		</td>
+
+		<td width="33%">
+		<p class="p8">
+		<a class="bluelink8" style="font-weight: bold;" href="/avia/shedule/index.html"><strong>Аэропорт &quot;Харьков&quot;</strong></a>
+		<br>(от 23.02.2022)
+		</p>
+		</td>
+	</tr>
+
+	<tr>
+		<td width="33%">
+		<div class="shed_8">
+			<a href="/bus/suburban/index.html" style="font-weight: bold;" class="bluelink8">Автобусы:</a>
+							<br>(межгород от 05.10.2023,<br>пригород от 15.01.2024)
+										<br><a href="/bus/suburban/stops/1/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">АС №1 &quot;Автовокзал&quot;...</a>							<br><a href="/bus/suburban/stops/2/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">АС №2 &quot;Центральний ринок&quot;...</a>							<br><a href="/bus/suburban/stops/3/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">АС №3 &quot;Кінний ринок&quot;...</a>							<br><a href="/bus/suburban/stops/6/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">АС №6 &quot;Заводська&quot;...</a>							<br><a href="/bus/suburban/stops/7/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">Термінал &quot;Салтівська&quot;...</a>							<br><a href="/bus/suburban/stops/8/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">Термінал &quot;Холодна Гора&quot;...</a>							<br><a href="/bus/suburban/stops/9/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">Термінал &quot;Індустріальна&quot;...</a>							<br><a href="/bus/suburban/stops/11/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">АС &quot;Привокзальна&quot;...</a>							<br><a href="/bus/suburban/stops/785/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">Ст. м. &quot;Центральний ринок&quot;...</a>								<br>
+								<br><a href="/bus/suburban/stops/12/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">Ст. м. &quot;Тракторний завод&quot;...</a>							<br><a href="/bus/suburban/stops/13/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">Ст. м. &quot;Левада&quot;...</a>							<br><a href="/bus/suburban/stops/14/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">Ст. м. &quot;Академіка Барабашова&quot;...</a>							<br><a href="/bus/suburban/stops/16/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">602-й мікрорайон (Салтівське шосе)...</a>							<br><a href="/bus/suburban/stops/17/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">Ст. м. &quot;Перемога&quot;...</a>							<br><a href="/bus/suburban/stops/477/shedule/" title="Посмотреть расписание автобусов, отправляющихся от данной автостанции/остановки">Ст. м. &quot;23 Серпня&quot;...</a>					</div>
+		</td>
+	</tr>
+	</table>
+
+	<table class="main_box">
+	<tr><th><a name="photobase"></a>Новые фотографии и схемы на сайте:</th></tr>
+	<tr><td>
+				<div class="photolist pl_main_page" style="margin: 0px;">
+									<div class="pl_selected_filter" style="width: 100%;">
+						Показывать:&nbsp;<span class="blblsp10">Избранные</span>&nbsp;|&nbsp;<a href="/photobase/set_selected_filter/off/">Все</a>&nbsp;<span class="blblsp10">[<a href="/help/photobase/selected/" title="Справка по этой функции" style="font-weight: bold;">?</a>]</span>&nbsp;
+					</div>
+								<table class="cols_5" cellspacing="5" cellpadding="0">
+					<tr>		<td class="pl_main_page_td_today">
+			<div class="pl_image"><a href="/photobase/56542/"><img
+				src="/trol/ps/skoda-14tr/photo/kht_skoda-14tr_2411_20190210_v1_s.jpg"
+				width="115" height="75"				alt="&Scaron;koda-14Tr18/6M #2411 18-го маршрута на проспекте Независимости в районе улицы Тринклера"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>&Scaron;koda-14Tr18/6M #2411 18-го маршрута на проспекте Независимости в районе улицы Тринклера</span><br/>
+											Дата съемки: 10.02.2019<br/>
+										Опубликовано: сегодня в 23:45											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_today">
+			<div class="pl_image"><a href="/photobase/56543/"><img
+				src="/trol/ps/skoda-14tr/photo/kht_skoda-14tr_2412_20190621_v1_s.jpg"
+				width="115" height="75"				alt="&Scaron;koda-14Tr18/6M #2412 5-го маршрута на проспекте Гагарина возле улицы Вербовой"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>&Scaron;koda-14Tr18/6M #2412 5-го маршрута на проспекте Гагарина возле улицы Вербовой</span><br/>
+											Дата съемки: 21.06.2019<br/>
+										Опубликовано: сегодня в 23:44											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_today">
+			<div class="pl_image"><a href="/photobase/56537/"><img
+				src="/tram/ps/t3/photo/khr_t3_4047_20151025_v2_s.jpg"
+				width="115" height="75"				alt="Tatra-T3A #4047-4048 3-го маршрута на улице Октябрьской революции возле улицы Рыбасовской"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>Tatra-T3A #4047-4048 3-го маршрута на улице Октябрьской революции возле улицы Рыбасовской</span><br/>
+											Дата съемки: 25.10.2015<br/>
+										Опубликовано: сегодня в 23:41											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_today">
+			<div class="pl_image"><a href="/photobase/56538/"><img
+				src="/tram/ps/t3/photo/khr_t3_4048_20151025_v1_s.jpg"
+				width="115" height="75"				alt="Tatra-T3A #4047-4048 3-го маршрута во въезде Чапаева возле улицы Черепановых"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>Tatra-T3A #4047-4048 3-го маршрута во въезде Чапаева возле улицы Черепановых</span><br/>
+											Дата съемки: 25.10.2015<br/>
+										Опубликовано: сегодня в 23:39											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_today">
+			<div class="pl_image"><a href="/photobase/56541/"><img
+				src="/tram/ps/t3/photo/khr_t3__277_20080204_m1_s.jpg"
+				width="115" height="75"				alt="Tatra-T3SU #277 2-го маршрута в Пискуновском переулке"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>Tatra-T3SU #277 2-го маршрута в Пискуновском переулке</span><br/>
+											Дата съемки: 04.02.2008<br/>
+										Опубликовано: сегодня в 21:19											<br/>Автор: <strong>Константин Марков</strong>
+									</div>
+			</div>
+		</td>
+		</tr>
+<tr>		<td class="pl_main_page_td_today">
+			<div class="pl_image"><a href="/photobase/56540/"><img
+				src="/bus/ps/paz3205/photo/kha_paz3205__ax2755ah_20090204_m1_s.jpg"
+				width="115" height="75"				alt="ПАЗ-32054 гос.#&nbsp;AX2755AH 119-го маршрута на площади Свободы"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>ПАЗ-32054 гос.#&nbsp;AX2755AH 119-го маршрута на площади Свободы</span><br/>
+											Дата съемки: 04.02.2009<br/>
+										Опубликовано: сегодня в 21:18											<br/>Автор: <strong>Константин Марков</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_yesterday">
+			<div class="pl_image"><a href="/photobase/54556/"><img
+				src="/bus/ps/laz-a183/photo/kha_laz-a183_yax1074aa_20190906_v2_s.jpg"
+				width="115" height="75"				alt="ЛАЗ-А183D1 гос.#&nbsp;АХ1074АА развозки авторынка &quot;Лоск&quot; на улице Полтавский шлях возле улицы Евгения Котляра"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>ЛАЗ-А183D1 гос.#&nbsp;АХ1074АА развозки авторынка &quot;Лоск&quot; на улице Полтавский шлях возле улицы Евгения Котляра</span><br/>
+											Дата съемки: 06.09.2019<br/>
+										Опубликовано: вчера в 23:53											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_yesterday">
+			<div class="pl_image"><a href="/photobase/54555/"><img
+				src="/bus/ps/laz-a183/photo/kha_laz-a183_yax1074aa_20190906_v1_s.jpg"
+				width="115" height="75"				alt="ЛАЗ-А183D1 гос.#&nbsp;АХ1074АА развозки авторынка &quot;Лоск&quot; на улице Полтавский шлях возле улицы Евгения Котляра"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>ЛАЗ-А183D1 гос.#&nbsp;АХ1074АА развозки авторынка &quot;Лоск&quot; на улице Полтавский шлях возле улицы Евгения Котляра</span><br/>
+											Дата съемки: 06.09.2019<br/>
+										Опубликовано: вчера в 23:52											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_yesterday">
+			<div class="pl_image"><a href="/photobase/56534/"><img
+				src="/trol/ps/skoda-15tr/photo/kht_skoda-15tr_2503_20191117_v2_s.jpg"
+				width="115" height="75"				alt="&Scaron;koda-15Tr13/6M #2503 1-го маршрута на проспекте Петра Григоренко в районе бульвара Юрьева"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>&Scaron;koda-15Tr13/6M #2503 1-го маршрута на проспекте Петра Григоренко в районе бульвара Юрьева</span><br/>
+											Дата съемки: 17.11.2019<br/>
+										Опубликовано: вчера в 23:46											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_yesterday">
+			<div class="pl_image"><a href="/photobase/56533/"><img
+				src="/trol/ps/skoda-15tr/photo/kht_skoda-15tr_2503_20190202_v2_s.jpg"
+				width="115" height="75"				alt="&Scaron;koda-15Tr13/6M #2503 6-го маршрута на улице Кузнечной выезжает с конечной &quot;Улица Университетская&quot;"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>&Scaron;koda-15Tr13/6M #2503 6-го маршрута на улице Кузнечной выезжает с конечной &quot;Улица Университетская&quot;</span><br/>
+											Дата съемки: 02.02.2019<br/>
+										Опубликовано: вчера в 23:45											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+		</tr>
+<tr>		<td class="pl_main_page_td_yesterday">
+			<div class="pl_image"><a href="/photobase/56476/"><img
+				src="/tram/ps/t3/photo/khr_t3_7068_20150110_v2_s.jpg"
+				width="115" height="75"				alt="Tatra-T3SUCS #7068 8-го маршрута на улице Морозова возле Юмтовского путепровода"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>Tatra-T3SUCS #7068 8-го маршрута на улице Морозова возле Юмтовского путепровода</span><br/>
+											Дата съемки: 10.01.2015<br/>
+										Опубликовано: вчера в 23:31											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_yesterday">
+			<div class="pl_image"><a href="/photobase/56475/"><img
+				src="/tram/ps/t3/photo/khr_t3_5123_20150110_v2_s.jpg"
+				width="115" height="75"				alt="Tatra-T3A #5123 8-го маршрута на улице Морозова возле Аллеи славы"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>Tatra-T3A #5123 8-го маршрута на улице Морозова возле Аллеи славы</span><br/>
+											Дата съемки: 10.01.2015<br/>
+										Опубликовано: вчера в 23:31											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_yesterday">
+			<div class="pl_image"><a href="/photobase/56527/"><img
+				src="/bus/ps/solaris-urbino15/photo/kha_solaris-urbino15__ax6707mk_20221110_m1_s.jpg"
+				width="115" height="75"				alt="Solaris Urbino 15 гос.#&nbsp;АХ6707МК  263-го маршрута на улице 23-го Августа"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>Solaris Urbino 15 гос.#&nbsp;АХ6707МК  263-го маршрута на улице 23-го Августа</span><br/>
+											Дата съемки: 10.11.2022<br/>
+										Опубликовано: вчера в 22:17											<br/>Автор: <strong>Константин Марков</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_yesterday">
+			<div class="pl_image"><a href="/photobase/56453/"><img
+				src="/trol/ps/pts12/photo/kht_pts12_2720_20250115_m1_s.jpg"
+				width="115" height="75"				alt="PTS 12 #2720 58-го маршрута на проспекте Науки на перекрестке с улицами Космической и Ляпунова"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>PTS 12 #2720 58-го маршрута на проспекте Науки на перекрестке с улицами Космической и Ляпунова</span><br/>
+											Дата съемки: 15.01.2025<br/>
+										Опубликовано: вчера в 22:17											<br/>Автор: <strong>Константин Марков</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_before_yesterday">
+			<div class="pl_image"><a href="/photobase/56469/"><img
+				src="/bus/ps/etalon-a079/photo/kha_a079_yax0493aa_20150419_v1_s.jpg"
+				width="115" height="75"				alt="БАЗ-А079.14 гос.#&nbsp;AX0493AA 215-го маршрута на улице Новгородской возле улицы Липовой"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>БАЗ-А079.14 гос.#&nbsp;AX0493AA 215-го маршрута на улице Новгородской возле улицы Липовой</span><br/>
+											Дата съемки: 19.04.2015<br/>
+										Опубликовано: 23:49											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+		</tr>
+<tr>		<td class="pl_main_page_td_before_yesterday">
+			<div class="pl_image"><a href="/photobase/56470/"><img
+				src="/bus/ps/etalon-a079/photo/kha_a079_yax0675aa_20150110_v1_s.jpg"
+				width="115" height="75"				alt="БАЗ-А079.14 гос.#&nbsp;AX0675AA 260-го маршрута на улице Плехановской в районе улицы Соича"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>БАЗ-А079.14 гос.#&nbsp;AX0675AA 260-го маршрута на улице Плехановской в районе улицы Соича</span><br/>
+											Дата съемки: 10.01.2015<br/>
+										Опубликовано: 23:49											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_before_yesterday">
+			<div class="pl_image"><a href="/photobase/56403/"><img
+				src="/bus/ps/zaz-a07a/photo/kha_zaz-a07a_yax1009aa_20210904_v1_s.jpg"
+				width="115" height="75"				alt="ЗАЗ-А07А гос.#&nbsp;АХ1009АА 208-го маршрута на улице Героев труда в районе Лазьковского моста"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>ЗАЗ-А07А гос.#&nbsp;АХ1009АА 208-го маршрута на улице Героев труда в районе Лазьковского моста</span><br/>
+											Дата съемки: 04.09.2021<br/>
+										Опубликовано: 23:45											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_before_yesterday">
+			<div class="pl_image"><a href="/photobase/56404/"><img
+				src="/bus/ps/zaz-a07a/photo/kha_zaz-a07a_yax1105aa_20210221_v1_s.jpg"
+				width="115" height="75"				alt="ЗАЗ-А07А.331 гос.#&nbsp;АХ1105АА 299-го маршрута на улице Холодногорской в районе улицы Полтавский шлях"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>ЗАЗ-А07А.331 гос.#&nbsp;АХ1105АА 299-го маршрута на улице Холодногорской в районе улицы Полтавский шлях</span><br/>
+											Дата съемки: 21.02.2021<br/>
+										Опубликовано: 23:44											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_before_yesterday">
+			<div class="pl_image"><a href="/photobase/56532/"><img
+				src="/trol/ps/pts12/photo/kht_pts12_2722_20250201_x2_s.jpg"
+				width="115" height="75"				alt="PTS-12 #2722 временного маршрута М на улице Ахсарова возле проспекта Людвига Свободы"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>PTS-12 #2722 временного маршрута М на улице Ахсарова возле проспекта Людвига Свободы</span><br/>
+											Дата съемки: 01.02.2025<br/>
+										Опубликовано: 23:43											<br/>Автор: <strong>Vania Chernysh</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_before_yesterday">
+			<div class="pl_image"><a href="/photobase/56531/"><img
+				src="/trol/ps/pts12/photo/kht_pts12_2722_20250201_x1_s.jpg"
+				width="115" height="75"				alt="PTS-12 #2722 временного маршрута М на проспекте Людвига Свободы перед отправлением от одноименной остановки"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>PTS-12 #2722 временного маршрута М на проспекте Людвига Свободы перед отправлением от одноименной остановки</span><br/>
+											Дата съемки: 01.02.2025<br/>
+										Опубликовано: 23:42											<br/>Автор: <strong>Vania Chernysh</strong>
+									</div>
+			</div>
+		</td>
+		</tr>
+				</table>
+				</div>
+				<script>
+					$('DIV.pl_main_page DIV.pl_image').mouseover(function() {
+						$(this).next('DIV.pl_tooltip_wraper').show();
+					});
+					$('DIV.pl_main_page DIV.pl_image').mouseout(function() {
+						$(this).next('DIV.pl_tooltip_wraper').hide();
+					});
+					/*
+					$('DIV.pl_main_page DIV.pl_image').mousemove(function(coords) {
+						$(this).children('DIV.pl_tooltip').css({
+							left: coords.pageX + 25,
+							top: coords.pageY + 5
+						});
+					});
+					*/
+				</script>
+				</td></tr>
+	<tr><td style="padding: 2px;">
+		<p style="text-align: center;">
+			<a class="rss" style="font-size: 8pt;" href="/photobase/rss/index.xml"><img src="/img/rss_12x12.gif" width="12" height="12" hspace="0" vspace="0" border="0" alt="" style="vertical-align: text-bottom; padding-right: 3px;">RSS</a>
+			|
+			<a class="bluelink8" href="/photobase/index.html">Посмотреть все опубликованные на сайте фотографии и схемы...</a></p>
+	</td></tr>
+	</table>
+
+	<table class="main_box">
+	<tr><th>Этот день в истории харьковского транспорта:</th></tr>
+	<tr><td>
+	<ul class="items_list il_chronilce"><li>
+								<div class="cr_date">04.02.1899&nbsp;(126&nbsp;лет&nbsp;назад)</div>
+								<div class="cr_text">Комітет міністрів та Департамент державної економії Державної ради затвердили положення щодо будівництва лінії транзитного значення Костянтиноград – Лозова завдовжки 89 верст.</div>
+							</li><li>
+								<div class="cr_date">04.02.1963&nbsp;(62&nbsp;года&nbsp;назад)</div>
+								<div class="cr_text">Путевая дорожная машинная станция №2 (ПДМС-2) реорганизована в Полтавскую ПМС-132.</div>
+							</li><li>
+								<div class="cr_date">04.02.1978&nbsp;(47&nbsp;лет&nbsp;назад)</div>
+								<div class="cr_text">Произведена сбойка левого перегонного тоннеля между станциями "Комсомольская" ("Маршала Жукова") и "Имени Советской Армии" - последняя сбойка на втором пусковом участке первой линии метро.</div>
+							</li><li>
+								<div class="cr_date">04.02.1985&nbsp;(40&nbsp;лет&nbsp;назад)</div>
+								<div class="cr_text">Согласно распоряжению Горисполкома №49 от 31.01.1985 трамвайный маршрут №2 Поселок "Монтажник" - 602-й микрорайон переведен на конечную "Проспект Победы", маршрут №25 Центральный рынок - Проспект Победы переведен на конечную "Поселок "Монтажник"".</div>
+							</li></ul>	<p style="text-align: left; padding-left: 5px; padding-bottom: 5px;"><a class="rss" style="font-size: 8pt;" href="/chronicle/rss/index.xml"><img src="/img/rss_12x12.gif" width="12" height="12" hspace="0" vspace="0" border="0" alt="" style="vertical-align: text-bottom; padding-right: 3px;">RSS</a> | <a class="bluelink8" href="/chronicle/index.html">Все события...</a></p>
+	</td></tr>
+	</table>
+
+	
+	<table class="main_box">
+	<tr><th>Список рассылки [khargortrans]:</th></tr>
+	<tr><td>
+	<p class="p8">Если Вы хотите высказать свое мнение относительно нашего сайта, или просто хотите пообщаться на темы, связанные с транспортом города Харькова и области, то вы можете подписаться на список рассылки [khargortrans], объединенный с фидоэхоконференцией KHARKOV.GORTRANSPORT.</p>
+	<p class="p8">Вы можете подписаться на список рассылки, послав пустое письмо по адресу <a class="bluelink8" href="mailto:khargortrans-subscribe@yahoogroups.com">khargortrans-subscribe@yahoogroups.com</a>. Перед тем, как подписаться, просим Вас ознакомится с <a class="bluelink8" href="/help/communication/list_rules/index.html">правилами списка рассылки и эхоконференции</a>.</p>
+	</td></tr>
+	</table>
+
+
+
+	<table class="main_box">
+	<tr><th>Внимание!</th></tr>
+	<tr><td>
+	<p class="p8">Любое использование материалов этого сайта возможно либо по разрешению автора, либо по согласованию с авторской группой сайта &quot;Харьков Транспортный&quot;.</p>
+	<p class="p8">Авторская принадлежность некоторых материалов сайта нам неизвестна. По первому требованию автора мы готовы либо разместить ссылку на автора либо убрать материал.</p>
+	</td></tr>
+	</table>
+
+	
+		<table class="main_box">
+		<tr><th colspan="2">Реклама</th></tr>
+		<tr>
+			<td>
+<p class="p8">
+Бесплатная и быстрая <a href="http://roll-club.kh.ua/tovar-category/pizza/" target="_blank">доставка пиццы</a> по Харькову
+<!--s_links--><!--check code--><!--/s_links--></p>
+			</td>
+		</tr>
+		</table>
+
+	
+</td>
+
+
+
+<td width="25%" style="vertical-align: top">
+
+
+
+		<table class="main_box">
+		<tr><th>Рассылка новостей:</th></tr>
+		<FORM TARGET="_top" ACTION="http://subscribe.ru/member/quick" METHOD="GET">
+		<tr><td style="text-align: center;">
+		<INPUT TYPE="hidden" NAME="action" VALUE="quick">
+		<INPUT TYPE="hidden" NAME="grp" VALUE="tech.auto.trans.khgortransport">
+		<INPUT TYPE="text" NAME="email" SIZE="20" MAXLEN="100" VALUE="Ваш e-mail" style="font-size: 9pt">
+		<br>
+		<INPUT TYPE="submit" VALUE="Подписаться" class="button">
+		</td></tr>
+		</FORM>
+		</table>
+
+		<table class="main_box">
+			<tr><th>СМИ о транспорте:</th></tr>
+			<tr>
+				<td>
+					<ul class="items_list il_news_on_main_page"><li><span class="date">03.02.25.</span> Замінили кабель. <a href="/news/29128/">Подробнее...</a></li>
+<li><span class="date">02.02.25.</span> Укрзалізниця планує придбати 100 пасажирських вагонів коштом держбюджету. <a href="/news/29150/">Подробнее...</a></li>
+<li><span class="date">01.02.25.</span> Більше 24&nbsp;тис. вантажних вагонів відремонтували залізничники у 2024&nbsp;році. <a href="/news/29151/">Подробнее...</a></li>
+<li><span class="date">31.01.25.</span> Станція метро «Перемога» буде зачинена 1 лютого. <a href="/news/29153/">Подробнее...</a></li>
+<li><span class="date">31.01.25.</span> Секрет успіху — нарощування темпів. <a href="/news/29127/">Подробнее...</a></li>
+<li><span class="date">30.01.25.</span> Трамвай №20 та тролейбус №12 тимчасово змінять маршрути. <a href="/news/29152/">Подробнее...</a></li>
+<li><span class="date">30.01.25.</span> Тимчасове закриття руху тролейбусів на вулиці 23 Серпня через аварійні роботи. <a href="/news/29149/">Подробнее...</a></li>
+<li><span class="date">30.01.25.</span> КВБЗ відвідали гості з Кременчуцького національного університету. <a href="/news/29145/">Подробнее...</a></li>
+<li><span class="date">29.01.25.</span> Щоб стати справжнім спеціалістом. <a href="/news/29126/">Подробнее...</a></li>
+<li><span class="date">28.01.25.</span> Трамвай №3 тимчасово змінить маршрут. <a href="/news/29148/">Подробнее...</a></li>
+</ul>					<p style="text-align: left;"><a class="rss" href="/news/media/rss/index.xml" style="font-size: 8pt;"><img src="/img/rss_12x12.gif" width="12" height="12" hspace="0" vspace="0" border="0" alt="" style="vertical-align: text-bottom; padding-right: 3px;">RSS</a> | <a class="bluelink8" href="/news/index.html">Все новости...</p>
+				</td>
+			</tr>
+		</table>
+
+		<table class="main_box">
+			<tr><th>Наши новости и обновления:</th></tr>
+			<tr>
+				<td>
+					<ul class="items_list il_news_on_main_page"><li><span class="date">23.01.25.</span> <span class="pre_text">Фоторепортаж.</span> Подорож через історію та сучасність харківського тролейбусу до 20&#8209;річчя сайту. <a href="/news/27227/">Смотреть...</a></li>
+<li><span class="date">20.12.23.</span> Тролейбусна СТО на Олексіївці: плани, що не стали реальністю. <a href="/news/27999/">Подробнее...</a></li>
+<li><span class="date">05.05.23.</span> Харьковский ретро-троллейбус ЗИУ-682 #346. <a href="/news/27272/">Подробнее...</a></li>
+<li><span class="date">01.05.23.</span> Харьковскому троллейбусу исполнилось 84 года. <a href="/news/27824/">Подробнее...</a></li>
+<li><span class="date">24.04.23.</span> <span class="pre_text">Фоторепортаж.</span> 20&nbsp;апреля на станции Харьков-Балашовский была проведена выставка локомотивов. <a href="/news/27819/">Подробнее...</a></li>
+</ul>					<p style="text-align: left;"><a class="rss" href="/news/our_news/rss/index.xml" style="font-size: 8pt;"><img src="/img/rss_12x12.gif" width="12" height="12" hspace="0" vspace="0" border="0" alt="" style="vertical-align: text-bottom; padding-right: 3px;">RSS</a> | <a class="bluelink8" href="/news/our_news/index.html">Архив&nbsp;рубрики...</a></p>
+				</td>
+			</tr>
+		</table>
+
+		<table class="main_box">
+			<tr><th>Блог:</th></tr>
+			<tr>
+				<td>
+					<ul class="items_list il_news_on_main_page"><li><span class="date">01.04.24.</span> Відкрито тимчасовий тролейбусний маршрут №60.  <a href="/news/28610/">Подробнее...</a></li>
+<li><span class="date">03.01.24.</span> Відновлено рух трамваїв 12&#8209;м маршрутом.  <a href="/news/28388/">Подробнее...</a></li>
+<li><span class="date">04.06.23.</span> Фотографии первых рейсов Малой Южной дороги в новом сезоне.  <a href="/news/27902/">Подробнее...</a></li>
+<li><span class="date">05.05.23.</span> Из нашего фотоархива: спецподача троллейбусного маршрута&nbsp;№7 до конечной "Микрорайон&nbsp;28".  <a href="/news/27707/">Смотреть...</a></li>
+<li><span class="date">16.03.23.</span> Автобусы MAN Lion's City на улицах Харькова.  <a href="/news/27784/">Подробнее...</a></li>
+</ul>
+					<p style="text-align: left;"><a class="rss" href="/news/blog/rss/index.xml" style="font-size: 8pt;"><img src="/img/rss_12x12.gif" width="12" height="12" hspace="0" vspace="0" border="0" alt="" style="vertical-align: text-bottom; padding-right: 3px;">RSS</a> | <a class="bluelink8" href="/news/blog/index.html">Архив&nbsp;рубрики...</a></p>
+				</td>
+			</tr>
+		</table>
+
+		<table class="main_box">
+		<tr><th>Новое в архиве новостей:</th></tr>
+		<tr>
+			<td>
+				<ul class="items_list il_news_on_main_page"><li><span class="date">03.02.25&nbsp(11.12.04).</span> Замінили кабель. <a href="/news/29128/">Подробнее...</a></li>
+<li><span class="date">31.01.25&nbsp(04.12.04).</span> Секрет успіху — нарощування темпів. <a href="/news/29127/">Подробнее...</a></li>
+<li><span class="date">29.01.25&nbsp(04.12.04).</span> Щоб стати справжнім спеціалістом. <a href="/news/29126/">Подробнее...</a></li>
+<li><span class="date">27.01.25&nbsp(04.12.04).</span> Зміщено зупинку. <a href="/news/29125/">Подробнее...</a></li>
+<li><span class="date">24.01.25&nbsp(04.12.04).</span> Підготовка до зими: нове обладнання для транспорту. <a href="/news/29124/">Подробнее...</a></li>
+</ul></ul>
+				<p><a class="bluelink8" href="/news/new_in_archive/">Дальше</a>&nbsp;|&nbsp;<a class="bluelink8" href="/news/archive/">Весь архив...</a></p>
+			</td>
+		</tr>
+		</table>
+
+		<div style="padding-left: 6px;">
+
+    		<p><a href="https://twitter.com/transport_kh" class="twitter-follow-button" data-show-count="false">Follow @transport_kh</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+
+    		<p style="text-align: left;"><a class="rss" href="/news/rss/index.xml" style="font-size: 8pt;"><img src="/img/rss_12x12.gif" width="12" height="12" hspace="0" vspace="0" border="0" alt="" style="vertical-align: text-bottom; padding-right: 3px;">RSS</a> - <a class="bluelink8" href="/news/rss/index.xml">все новости одной лентой...</a></p>
+
+    		<p style="text-align: left;"><a class="bluelink8" href="/site/rss/index.html">Что такое RSS?</a></p>
+
+		</div>
+
+</td></tr></table>
+
+</div></index>
+					</div><!-- EOF #content -->
+		<div id="footer">
+			<!-- Footer Begin -->
+			<hr>
+			&copy; Авторская группа проекта
+			<span class="blblsp8">&quot;Харьков транспортный&quot;</span>, 2002-2025.
+			<br>Использование материалов возможно только после согласования
+			<br>с
+			<a class="bluelink8" href="javascript:void(0)" onclick="injectMailLink(this)">авторской группой</a>
+			и при наличии ссылки на сайт.
+			<hr>
+
+			<!-- bigmir)net TOP 100 --><a href="https://www.bigmir.net/" target=_blank onClick='img = new Image();img.src="https://www.bigmir.net/?cl=151277";' ><script language="javascript"><!--
+			bmQ='<img src=https://c.bigmir.net/?s151277&t8'
+			bmD=document
+			bmD.cookie="b=b"
+			if(bmD.cookie)bmQ+='&c1'
+			//--></script><script language="javascript1.2"><!--
+			bmS=screen;bmQ+='&d'+(bmS.colorDepth?bmS.colorDepth:bmS.pixelDepth)+"&r"+bmS.width;
+			//--></script><script language="javascript"><!--
+			bmF = bmD.referrer.slice(7);
+			((bmI=bmF.indexOf('/'))!=-1)?(bmF=bmF.substring(0,bmI)):(bmI=bmF.length);
+			if(bmF!=window.location.href.substring(7,7+bmI))bmQ+='&f'+escape(bmD.referrer);
+			bmD.write(bmQ+" border=0 width=88 height=31 alt='bigmir TOP100'>");
+			//--></script></a><br><br>
+
+		</div>
+	</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-276229-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+	<div class="module_actions_link"><a
+		title="Действия модуля"
+		href="javascript:void(0);"
+		onclick="showActions(event, 'main');"><img src="/img/blank.gif" width="5" height="5" border="0" alt="" /></a></div>
+	
+
+	<!-- Яндекс.Директ -->
+<script type="text/javascript">
+(function(w, d, n, s, t) {
+w[n] = w[n] || [];
+w[n].push(function() {
+Ya.Direct.insertInto(20937, "banner", {
+stat_id: 3,
+ad_format: "direct",
+type: "728x90",
+border_type: "block",
+site_bg_color: "FFFFFF",
+header_bg_color: "66CC66",
+bg_color: "CCFFCC",
+border_color: "66CC66",
+title_color: "009900",
+url_color: "009900",
+text_color: "000000",
+hover_color: "66CC66",
+favicon: true,
+no_sitelinks: true
+});
+});
+t = d.getElementsByTagName("script")[0];
+s = d.createElement("script");
+s.src = "//an.yandex.ru/system/context.js";
+s.type = "text/javascript";
+s.async = true;
+t.parentNode.insertBefore(s, t);
+})(window, document, "yandex_context_callbacks");
+</script>
+</BODY>
+</HTML>
