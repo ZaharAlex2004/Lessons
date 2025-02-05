@@ -1,4 +1,4 @@
-from Pro.HW.l6.l6_t1 import *
+from l6_t1 import fact, nod, up
 
 
 def main():

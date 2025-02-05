@@ -1,7 +1,7 @@
 import requests
 
 
-def page(url, filename):
+def page(url: str, filename: str) -> str:
     """
     Перезапись страницы.
     :param url:

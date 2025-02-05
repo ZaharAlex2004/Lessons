@@ -225,6 +225,134 @@
 					</div>
 								<table class="cols_5" cellspacing="5" cellpadding="0">
 					<tr>		<td class="pl_main_page_td_today">
+			<div class="pl_image"><a href="/photobase/56546/"><img
+				src="/trol/ps/laz-e301/photo/kht_laz-e301_3222_20190622_v1_s.jpg"
+				width="115" height="75"				alt="ЛАЗ-Е301D1 #3222 24-го маршрута на улице Амурской пересекает улицу Академика Павлова"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>ЛАЗ-Е301D1 #3222 24-го маршрута на улице Амурской пересекает улицу Академика Павлова</span><br/>
+											Дата съемки: 22.06.2019<br/>
+										Опубликовано: сегодня в 23:52											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_today">
+			<div class="pl_image"><a href="/photobase/56547/"><img
+				src="/trol/ps/laz-e301/photo/kht_laz-e301_3224_20191025_v1_s.jpg"
+				width="115" height="75"				alt="ЛАЗ-Е301D1 #3224 34-го маршрута на улице Валентиновской прибыл на конечную &quot;Восточная Салтовка&quot;"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>ЛАЗ-Е301D1 #3224 34-го маршрута на улице Валентиновской прибыл на конечную &quot;Восточная Салтовка&quot;</span><br/>
+											Дата съемки: 25.10.2019<br/>
+										Опубликовано: сегодня в 23:52											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_today">
+			<div class="pl_image"><a href="/photobase/56317/"><img
+				src="/tram/ps/t3vpnp/photo/khr_t3vpnp__575_20211010_vw_s.jpg"
+				width="115" height="75"				alt="Т3-ВПНП #575 следует по разворотному кругу &quot;Улица Новгородская&quot;"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>Т3-ВПНП #575 следует по разворотному кругу &quot;Улица Новгородская&quot;</span><br/>
+											Дата съемки: 10.10.2021<br/>
+										Опубликовано: сегодня в 23:46											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_today">
+			<div class="pl_image"><a href="/photobase/56316/"><img
+				src="/tram/ps/t3vpnp/photo/khr_t3vpnp__575_20211010_vv_s.jpg"
+				width="115" height="75"				alt="Т3-ВПНП #575 заезжает на разворотный круг &quot;Улица Новгородская&quot;"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>Т3-ВПНП #575 заезжает на разворотный круг &quot;Улица Новгородская&quot;</span><br/>
+											Дата съемки: 10.10.2021<br/>
+										Опубликовано: сегодня в 23:45											<br/>Автор: <strong>Vadim Pudovkin</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_today">
+			<div class="pl_image"><a href="/photobase/56557/"><img
+				src="/tram/ps/t3/photo/khr_t3__419_20250204_x1_s.jpg"
+				width="115" height="75"				alt="Tatra-T3SUCS #419 20-го маршрута на проспекте Победы в районе проспекта Людвига Свободы"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>Tatra-T3SUCS #419 20-го маршрута на проспекте Победы в районе проспекта Людвига Свободы</span><br/>
+											Дата съемки: вчера<br/>
+										Опубликовано: сегодня в 23:33											<br/>Автор: <strong>Vania Chernysh</strong>
+									</div>
+			</div>
+		</td>
+		</tr>
+<tr>		<td class="pl_main_page_td_today">
+			<div class="pl_image"><a href="/photobase/56558/"><img
+				src="/tram/ps/t3/photo/khr_t3__709_20250202_x1_s.jpg"
+				width="115" height="75"				alt="Tatra-T3SUCS #709 6-го маршрута поворачивает с Павловской площади на Сергиевскую площадь"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>Tatra-T3SUCS #709 6-го маршрута поворачивает с Павловской площади на Сергиевскую площадь</span><br/>
+											Дата съемки: 02.02.2025<br/>
+										Опубликовано: сегодня в 23:32									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_today">
+			<div class="pl_image"><a href="/photobase/56549/"><img
+				src="/trol/ps/umz/photo/kht_umz-t1_1210_20050205_m1_s.jpg"
+				width="115" height="75"				alt="ЮМЗ-Т1 #1210 2-го маршрута на улице Сумской возле парка им. Горького"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>ЮМЗ-Т1 #1210 2-го маршрута на улице Сумской возле парка им. Горького</span><br/>
+											Дата съемки: 05.02.2005<br/>
+										Опубликовано: сегодня в 23:09											<br/>Автор: <strong>Константин Марков</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_today">
+			<div class="pl_image"><a href="/photobase/56548/"><img
+				src="/bus/ps/ikarus260/photo/kha_ikarus260_yxa00497_20050205_m1_s.jpg"
+				width="115" height="75"				alt="Ikarus-260.27 гос.#&nbsp;004-97ХА 1151-го маршрута на АС-4"></a>
+			</div>
+			<div class="pl_tooltip_wraper">
+				<div class="pl_tooltip">
+					<div class="tooltip-pointer-up">
+						<div class="tooltip-pointer-up-inner"></div>
+					</div>
+					<span>Ikarus-260.27 гос.#&nbsp;004-97ХА 1151-го маршрута на АС-4</span><br/>
+											Дата съемки: 05.02.2005<br/>
+										Опубликовано: сегодня в 23:09											<br/>Автор: <strong>Константин Марков</strong>
+									</div>
+			</div>
+		</td>
+				<td class="pl_main_page_td_yesterday">
 			<div class="pl_image"><a href="/photobase/56542/"><img
 				src="/trol/ps/skoda-14tr/photo/kht_skoda-14tr_2411_20190210_v1_s.jpg"
 				width="115" height="75"				alt="&Scaron;koda-14Tr18/6M #2411 18-го маршрута на проспекте Независимости в районе улицы Тринклера"></a>
@@ -236,11 +364,11 @@
 					</div>
 					<span>&Scaron;koda-14Tr18/6M #2411 18-го маршрута на проспекте Независимости в районе улицы Тринклера</span><br/>
 											Дата съемки: 10.02.2019<br/>
-										Опубликовано: сегодня в 23:45											<br/>Автор: <strong>Vadim Pudovkin</strong>
+										Опубликовано: вчера в 23:45											<br/>Автор: <strong>Vadim Pudovkin</strong>
 									</div>
 			</div>
 		</td>
-				<td class="pl_main_page_td_today">
+				<td class="pl_main_page_td_yesterday">
 			<div class="pl_image"><a href="/photobase/56543/"><img
 				src="/trol/ps/skoda-14tr/photo/kht_skoda-14tr_2412_20190621_v1_s.jpg"
 				width="115" height="75"				alt="&Scaron;koda-14Tr18/6M #2412 5-го маршрута на проспекте Гагарина возле улицы Вербовой"></a>
@@ -252,11 +380,12 @@
 					</div>
 					<span>&Scaron;koda-14Tr18/6M #2412 5-го маршрута на проспекте Гагарина возле улицы Вербовой</span><br/>
 											Дата съемки: 21.06.2019<br/>
-										Опубликовано: сегодня в 23:44											<br/>Автор: <strong>Vadim Pudovkin</strong>
+										Опубликовано: вчера в 23:44											<br/>Автор: <strong>Vadim Pudovkin</strong>
 									</div>
 			</div>
 		</td>
-				<td class="pl_main_page_td_today">
+		</tr>
+<tr>		<td class="pl_main_page_td_yesterday">
 			<div class="pl_image"><a href="/photobase/56537/"><img
 				src="/tram/ps/t3/photo/khr_t3_4047_20151025_v2_s.jpg"
 				width="115" height="75"				alt="Tatra-T3A #4047-4048 3-го маршрута на улице Октябрьской революции возле улицы Рыбасовской"></a>
@@ -268,11 +397,11 @@
 					</div>
 					<span>Tatra-T3A #4047-4048 3-го маршрута на улице Октябрьской революции возле улицы Рыбасовской</span><br/>
 											Дата съемки: 25.10.2015<br/>
-										Опубликовано: сегодня в 23:41											<br/>Автор: <strong>Vadim Pudovkin</strong>
+										Опубликовано: вчера в 23:41											<br/>Автор: <strong>Vadim Pudovkin</strong>
 									</div>
 			</div>
 		</td>
-				<td class="pl_main_page_td_today">
+				<td class="pl_main_page_td_yesterday">
 			<div class="pl_image"><a href="/photobase/56538/"><img
 				src="/tram/ps/t3/photo/khr_t3_4048_20151025_v1_s.jpg"
 				width="115" height="75"				alt="Tatra-T3A #4047-4048 3-го маршрута во въезде Чапаева возле улицы Черепановых"></a>
@@ -284,11 +413,11 @@
 					</div>
 					<span>Tatra-T3A #4047-4048 3-го маршрута во въезде Чапаева возле улицы Черепановых</span><br/>
 											Дата съемки: 25.10.2015<br/>
-										Опубликовано: сегодня в 23:39											<br/>Автор: <strong>Vadim Pudovkin</strong>
+										Опубликовано: вчера в 23:39											<br/>Автор: <strong>Vadim Pudovkin</strong>
 									</div>
 			</div>
 		</td>
-				<td class="pl_main_page_td_today">
+				<td class="pl_main_page_td_yesterday">
 			<div class="pl_image"><a href="/photobase/56541/"><img
 				src="/tram/ps/t3/photo/khr_t3__277_20080204_m1_s.jpg"
 				width="115" height="75"				alt="Tatra-T3SU #277 2-го маршрута в Пискуновском переулке"></a>
@@ -300,12 +429,11 @@
 					</div>
 					<span>Tatra-T3SU #277 2-го маршрута в Пискуновском переулке</span><br/>
 											Дата съемки: 04.02.2008<br/>
-										Опубликовано: сегодня в 21:19											<br/>Автор: <strong>Константин Марков</strong>
+										Опубликовано: вчера в 21:19											<br/>Автор: <strong>Константин Марков</strong>
 									</div>
 			</div>
 		</td>
-		</tr>
-<tr>		<td class="pl_main_page_td_today">
+				<td class="pl_main_page_td_yesterday">
 			<div class="pl_image"><a href="/photobase/56540/"><img
 				src="/bus/ps/paz3205/photo/kha_paz3205__ax2755ah_20090204_m1_s.jpg"
 				width="115" height="75"				alt="ПАЗ-32054 гос.#&nbsp;AX2755AH 119-го маршрута на площади Свободы"></a>
@@ -317,11 +445,11 @@
 					</div>
 					<span>ПАЗ-32054 гос.#&nbsp;AX2755AH 119-го маршрута на площади Свободы</span><br/>
 											Дата съемки: 04.02.2009<br/>
-										Опубликовано: сегодня в 21:18											<br/>Автор: <strong>Константин Марков</strong>
+										Опубликовано: вчера в 21:18											<br/>Автор: <strong>Константин Марков</strong>
 									</div>
 			</div>
 		</td>
-				<td class="pl_main_page_td_yesterday">
+				<td class="pl_main_page_td_before_yesterday">
 			<div class="pl_image"><a href="/photobase/54556/"><img
 				src="/bus/ps/laz-a183/photo/kha_laz-a183_yax1074aa_20190906_v2_s.jpg"
 				width="115" height="75"				alt="ЛАЗ-А183D1 гос.#&nbsp;АХ1074АА развозки авторынка &quot;Лоск&quot; на улице Полтавский шлях возле улицы Евгения Котляра"></a>
@@ -333,11 +461,12 @@
 					</div>
 					<span>ЛАЗ-А183D1 гос.#&nbsp;АХ1074АА развозки авторынка &quot;Лоск&quot; на улице Полтавский шлях возле улицы Евгения Котляра</span><br/>
 											Дата съемки: 06.09.2019<br/>
-										Опубликовано: вчера в 23:53											<br/>Автор: <strong>Vadim Pudovkin</strong>
+										Опубликовано: 23:53											<br/>Автор: <strong>Vadim Pudovkin</strong>
 									</div>
 			</div>
 		</td>
-				<td class="pl_main_page_td_yesterday">
+		</tr>
+<tr>		<td class="pl_main_page_td_before_yesterday">
 			<div class="pl_image"><a href="/photobase/54555/"><img
 				src="/bus/ps/laz-a183/photo/kha_laz-a183_yax1074aa_20190906_v1_s.jpg"
 				width="115" height="75"				alt="ЛАЗ-А183D1 гос.#&nbsp;АХ1074АА развозки авторынка &quot;Лоск&quot; на улице Полтавский шлях возле улицы Евгения Котляра"></a>
@@ -349,11 +478,11 @@
 					</div>
 					<span>ЛАЗ-А183D1 гос.#&nbsp;АХ1074АА развозки авторынка &quot;Лоск&quot; на улице Полтавский шлях возле улицы Евгения Котляра</span><br/>
 											Дата съемки: 06.09.2019<br/>
-										Опубликовано: вчера в 23:52											<br/>Автор: <strong>Vadim Pudovkin</strong>
+										Опубликовано: 23:52											<br/>Автор: <strong>Vadim Pudovkin</strong>
 									</div>
 			</div>
 		</td>
-				<td class="pl_main_page_td_yesterday">
+				<td class="pl_main_page_td_before_yesterday">
 			<div class="pl_image"><a href="/photobase/56534/"><img
 				src="/trol/ps/skoda-15tr/photo/kht_skoda-15tr_2503_20191117_v2_s.jpg"
 				width="115" height="75"				alt="&Scaron;koda-15Tr13/6M #2503 1-го маршрута на проспекте Петра Григоренко в районе бульвара Юрьева"></a>
@@ -365,11 +494,11 @@
 					</div>
 					<span>&Scaron;koda-15Tr13/6M #2503 1-го маршрута на проспекте Петра Григоренко в районе бульвара Юрьева</span><br/>
 											Дата съемки: 17.11.2019<br/>
-										Опубликовано: вчера в 23:46											<br/>Автор: <strong>Vadim Pudovkin</strong>
+										Опубликовано: 23:46											<br/>Автор: <strong>Vadim Pudovkin</strong>
 									</div>
 			</div>
 		</td>
-				<td class="pl_main_page_td_yesterday">
+				<td class="pl_main_page_td_before_yesterday">
 			<div class="pl_image"><a href="/photobase/56533/"><img
 				src="/trol/ps/skoda-15tr/photo/kht_skoda-15tr_2503_20190202_v2_s.jpg"
 				width="115" height="75"				alt="&Scaron;koda-15Tr13/6M #2503 6-го маршрута на улице Кузнечной выезжает с конечной &quot;Улица Университетская&quot;"></a>
@@ -381,12 +510,11 @@
 					</div>
 					<span>&Scaron;koda-15Tr13/6M #2503 6-го маршрута на улице Кузнечной выезжает с конечной &quot;Улица Университетская&quot;</span><br/>
 											Дата съемки: 02.02.2019<br/>
-										Опубликовано: вчера в 23:45											<br/>Автор: <strong>Vadim Pudovkin</strong>
+										Опубликовано: 23:45											<br/>Автор: <strong>Vadim Pudovkin</strong>
 									</div>
 			</div>
 		</td>
-		</tr>
-<tr>		<td class="pl_main_page_td_yesterday">
+				<td class="pl_main_page_td_before_yesterday">
 			<div class="pl_image"><a href="/photobase/56476/"><img
 				src="/tram/ps/t3/photo/khr_t3_7068_20150110_v2_s.jpg"
 				width="115" height="75"				alt="Tatra-T3SUCS #7068 8-го маршрута на улице Морозова возле Юмтовского путепровода"></a>
@@ -398,11 +526,11 @@
 					</div>
 					<span>Tatra-T3SUCS #7068 8-го маршрута на улице Морозова возле Юмтовского путепровода</span><br/>
 											Дата съемки: 10.01.2015<br/>
-										Опубликовано: вчера в 23:31											<br/>Автор: <strong>Vadim Pudovkin</strong>
+										Опубликовано: 23:31											<br/>Автор: <strong>Vadim Pudovkin</strong>
 									</div>
 			</div>
 		</td>
-				<td class="pl_main_page_td_yesterday">
+				<td class="pl_main_page_td_before_yesterday">
 			<div class="pl_image"><a href="/photobase/56475/"><img
 				src="/tram/ps/t3/photo/khr_t3_5123_20150110_v2_s.jpg"
 				width="115" height="75"				alt="Tatra-T3A #5123 8-го маршрута на улице Морозова возле Аллеи славы"></a>
@@ -414,136 +542,7 @@
 					</div>
 					<span>Tatra-T3A #5123 8-го маршрута на улице Морозова возле Аллеи славы</span><br/>
 											Дата съемки: 10.01.2015<br/>
-										Опубликовано: вчера в 23:31											<br/>Автор: <strong>Vadim Pudovkin</strong>
-									</div>
-			</div>
-		</td>
-				<td class="pl_main_page_td_yesterday">
-			<div class="pl_image"><a href="/photobase/56527/"><img
-				src="/bus/ps/solaris-urbino15/photo/kha_solaris-urbino15__ax6707mk_20221110_m1_s.jpg"
-				width="115" height="75"				alt="Solaris Urbino 15 гос.#&nbsp;АХ6707МК  263-го маршрута на улице 23-го Августа"></a>
-			</div>
-			<div class="pl_tooltip_wraper">
-				<div class="pl_tooltip">
-					<div class="tooltip-pointer-up">
-						<div class="tooltip-pointer-up-inner"></div>
-					</div>
-					<span>Solaris Urbino 15 гос.#&nbsp;АХ6707МК  263-го маршрута на улице 23-го Августа</span><br/>
-											Дата съемки: 10.11.2022<br/>
-										Опубликовано: вчера в 22:17											<br/>Автор: <strong>Константин Марков</strong>
-									</div>
-			</div>
-		</td>
-				<td class="pl_main_page_td_yesterday">
-			<div class="pl_image"><a href="/photobase/56453/"><img
-				src="/trol/ps/pts12/photo/kht_pts12_2720_20250115_m1_s.jpg"
-				width="115" height="75"				alt="PTS 12 #2720 58-го маршрута на проспекте Науки на перекрестке с улицами Космической и Ляпунова"></a>
-			</div>
-			<div class="pl_tooltip_wraper">
-				<div class="pl_tooltip">
-					<div class="tooltip-pointer-up">
-						<div class="tooltip-pointer-up-inner"></div>
-					</div>
-					<span>PTS 12 #2720 58-го маршрута на проспекте Науки на перекрестке с улицами Космической и Ляпунова</span><br/>
-											Дата съемки: 15.01.2025<br/>
-										Опубликовано: вчера в 22:17											<br/>Автор: <strong>Константин Марков</strong>
-									</div>
-			</div>
-		</td>
-				<td class="pl_main_page_td_before_yesterday">
-			<div class="pl_image"><a href="/photobase/56469/"><img
-				src="/bus/ps/etalon-a079/photo/kha_a079_yax0493aa_20150419_v1_s.jpg"
-				width="115" height="75"				alt="БАЗ-А079.14 гос.#&nbsp;AX0493AA 215-го маршрута на улице Новгородской возле улицы Липовой"></a>
-			</div>
-			<div class="pl_tooltip_wraper">
-				<div class="pl_tooltip">
-					<div class="tooltip-pointer-up">
-						<div class="tooltip-pointer-up-inner"></div>
-					</div>
-					<span>БАЗ-А079.14 гос.#&nbsp;AX0493AA 215-го маршрута на улице Новгородской возле улицы Липовой</span><br/>
-											Дата съемки: 19.04.2015<br/>
-										Опубликовано: 23:49											<br/>Автор: <strong>Vadim Pudovkin</strong>
-									</div>
-			</div>
-		</td>
-		</tr>
-<tr>		<td class="pl_main_page_td_before_yesterday">
-			<div class="pl_image"><a href="/photobase/56470/"><img
-				src="/bus/ps/etalon-a079/photo/kha_a079_yax0675aa_20150110_v1_s.jpg"
-				width="115" height="75"				alt="БАЗ-А079.14 гос.#&nbsp;AX0675AA 260-го маршрута на улице Плехановской в районе улицы Соича"></a>
-			</div>
-			<div class="pl_tooltip_wraper">
-				<div class="pl_tooltip">
-					<div class="tooltip-pointer-up">
-						<div class="tooltip-pointer-up-inner"></div>
-					</div>
-					<span>БАЗ-А079.14 гос.#&nbsp;AX0675AA 260-го маршрута на улице Плехановской в районе улицы Соича</span><br/>
-											Дата съемки: 10.01.2015<br/>
-										Опубликовано: 23:49											<br/>Автор: <strong>Vadim Pudovkin</strong>
-									</div>
-			</div>
-		</td>
-				<td class="pl_main_page_td_before_yesterday">
-			<div class="pl_image"><a href="/photobase/56403/"><img
-				src="/bus/ps/zaz-a07a/photo/kha_zaz-a07a_yax1009aa_20210904_v1_s.jpg"
-				width="115" height="75"				alt="ЗАЗ-А07А гос.#&nbsp;АХ1009АА 208-го маршрута на улице Героев труда в районе Лазьковского моста"></a>
-			</div>
-			<div class="pl_tooltip_wraper">
-				<div class="pl_tooltip">
-					<div class="tooltip-pointer-up">
-						<div class="tooltip-pointer-up-inner"></div>
-					</div>
-					<span>ЗАЗ-А07А гос.#&nbsp;АХ1009АА 208-го маршрута на улице Героев труда в районе Лазьковского моста</span><br/>
-											Дата съемки: 04.09.2021<br/>
-										Опубликовано: 23:45											<br/>Автор: <strong>Vadim Pudovkin</strong>
-									</div>
-			</div>
-		</td>
-				<td class="pl_main_page_td_before_yesterday">
-			<div class="pl_image"><a href="/photobase/56404/"><img
-				src="/bus/ps/zaz-a07a/photo/kha_zaz-a07a_yax1105aa_20210221_v1_s.jpg"
-				width="115" height="75"				alt="ЗАЗ-А07А.331 гос.#&nbsp;АХ1105АА 299-го маршрута на улице Холодногорской в районе улицы Полтавский шлях"></a>
-			</div>
-			<div class="pl_tooltip_wraper">
-				<div class="pl_tooltip">
-					<div class="tooltip-pointer-up">
-						<div class="tooltip-pointer-up-inner"></div>
-					</div>
-					<span>ЗАЗ-А07А.331 гос.#&nbsp;АХ1105АА 299-го маршрута на улице Холодногорской в районе улицы Полтавский шлях</span><br/>
-											Дата съемки: 21.02.2021<br/>
-										Опубликовано: 23:44											<br/>Автор: <strong>Vadim Pudovkin</strong>
-									</div>
-			</div>
-		</td>
-				<td class="pl_main_page_td_before_yesterday">
-			<div class="pl_image"><a href="/photobase/56532/"><img
-				src="/trol/ps/pts12/photo/kht_pts12_2722_20250201_x2_s.jpg"
-				width="115" height="75"				alt="PTS-12 #2722 временного маршрута М на улице Ахсарова возле проспекта Людвига Свободы"></a>
-			</div>
-			<div class="pl_tooltip_wraper">
-				<div class="pl_tooltip">
-					<div class="tooltip-pointer-up">
-						<div class="tooltip-pointer-up-inner"></div>
-					</div>
-					<span>PTS-12 #2722 временного маршрута М на улице Ахсарова возле проспекта Людвига Свободы</span><br/>
-											Дата съемки: 01.02.2025<br/>
-										Опубликовано: 23:43											<br/>Автор: <strong>Vania Chernysh</strong>
-									</div>
-			</div>
-		</td>
-				<td class="pl_main_page_td_before_yesterday">
-			<div class="pl_image"><a href="/photobase/56531/"><img
-				src="/trol/ps/pts12/photo/kht_pts12_2722_20250201_x1_s.jpg"
-				width="115" height="75"				alt="PTS-12 #2722 временного маршрута М на проспекте Людвига Свободы перед отправлением от одноименной остановки"></a>
-			</div>
-			<div class="pl_tooltip_wraper">
-				<div class="pl_tooltip">
-					<div class="tooltip-pointer-up">
-						<div class="tooltip-pointer-up-inner"></div>
-					</div>
-					<span>PTS-12 #2722 временного маршрута М на проспекте Людвига Свободы перед отправлением от одноименной остановки</span><br/>
-											Дата съемки: 01.02.2025<br/>
-										Опубликовано: 23:42											<br/>Автор: <strong>Vania Chernysh</strong>
+										Опубликовано: 23:31											<br/>Автор: <strong>Vadim Pudovkin</strong>
 									</div>
 			</div>
 		</td>
@@ -579,17 +578,14 @@
 	<tr><th>Этот день в истории харьковского транспорта:</th></tr>
 	<tr><td>
 	<ul class="items_list il_chronilce"><li>
-								<div class="cr_date">04.02.1899&nbsp;(126&nbsp;лет&nbsp;назад)</div>
-								<div class="cr_text">Комітет міністрів та Департамент державної економії Державної ради затвердили положення щодо будівництва лінії транзитного значення Костянтиноград – Лозова завдовжки 89 верст.</div>
+								<div class="cr_date">05.02.1975&nbsp;(50&nbsp;лет&nbsp;назад)</div>
+								<div class="cr_text">Рабочая комиссия приняла первый объект метрополитена - тяговую подстанцию № 1.</div>
 							</li><li>
-								<div class="cr_date">04.02.1963&nbsp;(62&nbsp;года&nbsp;назад)</div>
-								<div class="cr_text">Путевая дорожная машинная станция №2 (ПДМС-2) реорганизована в Полтавскую ПМС-132.</div>
+								<div class="cr_date">05.02.2003&nbsp;(22&nbsp;года&nbsp;назад)</div>
+								<div class="cr_text">Один из автобусов ХАРЗ-5259 "Харьковчанин" (#7556 Р1) производства Харьковского автомобильного ремонтного завода № 126 представлен мэру Харькова Владимиру Шумилкину.&nbsp;<a href="/news/4093/" title="Подробнее о событии...">Подробнее...</a></div>
 							</li><li>
-								<div class="cr_date">04.02.1978&nbsp;(47&nbsp;лет&nbsp;назад)</div>
-								<div class="cr_text">Произведена сбойка левого перегонного тоннеля между станциями "Комсомольская" ("Маршала Жукова") и "Имени Советской Армии" - последняя сбойка на втором пусковом участке первой линии метро.</div>
-							</li><li>
-								<div class="cr_date">04.02.1985&nbsp;(40&nbsp;лет&nbsp;назад)</div>
-								<div class="cr_text">Согласно распоряжению Горисполкома №49 от 31.01.1985 трамвайный маршрут №2 Поселок "Монтажник" - 602-й микрорайон переведен на конечную "Проспект Победы", маршрут №25 Центральный рынок - Проспект Победы переведен на конечную "Поселок "Монтажник"".</div>
+								<div class="cr_date">05.02.2005&nbsp;(20&nbsp;лет&nbsp;назад)</div>
+								<div class="cr_text">Изменился путь следования трамвайного маршрута №13 Проспект Победы - Центальный рынок - Ивановка. Новый маршрут: Проспект Победы - Центральный рынок - Ивановка - Южный вокзал.</div>
 							</li></ul>	<p style="text-align: left; padding-left: 5px; padding-bottom: 5px;"><a class="rss" style="font-size: 8pt;" href="/chronicle/rss/index.xml"><img src="/img/rss_12x12.gif" width="12" height="12" hspace="0" vspace="0" border="0" alt="" style="vertical-align: text-bottom; padding-right: 3px;">RSS</a> | <a class="bluelink8" href="/chronicle/index.html">Все события...</a></p>
 	</td></tr>
 	</table>
@@ -651,7 +647,9 @@
 			<tr><th>СМИ о транспорте:</th></tr>
 			<tr>
 				<td>
-					<ul class="items_list il_news_on_main_page"><li><span class="date">03.02.25.</span> Замінили кабель. <a href="/news/29128/">Подробнее...</a></li>
+					<ul class="items_list il_news_on_main_page"><li><span class="date">05.02.25.</span> Майстри фарбування тролейбусного депо №3. <a href="/news/29129/">Подробнее...</a></li>
+<li><span class="date">04.02.25.</span> Метрополітенівці вперше у 2025 році здали кров на потреби бійців ЗСУ та лікарень. <a href="/news/29154/">Подробнее...</a></li>
+<li><span class="date">03.02.25.</span> Замінили кабель. <a href="/news/29128/">Подробнее...</a></li>
 <li><span class="date">02.02.25.</span> Укрзалізниця планує придбати 100 пасажирських вагонів коштом держбюджету. <a href="/news/29150/">Подробнее...</a></li>
 <li><span class="date">01.02.25.</span> Більше 24&nbsp;тис. вантажних вагонів відремонтували залізничники у 2024&nbsp;році. <a href="/news/29151/">Подробнее...</a></li>
 <li><span class="date">31.01.25.</span> Станція метро «Перемога» буде зачинена 1 лютого. <a href="/news/29153/">Подробнее...</a></li>
@@ -659,8 +657,6 @@
 <li><span class="date">30.01.25.</span> Трамвай №20 та тролейбус №12 тимчасово змінять маршрути. <a href="/news/29152/">Подробнее...</a></li>
 <li><span class="date">30.01.25.</span> Тимчасове закриття руху тролейбусів на вулиці 23 Серпня через аварійні роботи. <a href="/news/29149/">Подробнее...</a></li>
 <li><span class="date">30.01.25.</span> КВБЗ відвідали гості з Кременчуцького національного університету. <a href="/news/29145/">Подробнее...</a></li>
-<li><span class="date">29.01.25.</span> Щоб стати справжнім спеціалістом. <a href="/news/29126/">Подробнее...</a></li>
-<li><span class="date">28.01.25.</span> Трамвай №3 тимчасово змінить маршрут. <a href="/news/29148/">Подробнее...</a></li>
 </ul>					<p style="text-align: left;"><a class="rss" href="/news/media/rss/index.xml" style="font-size: 8pt;"><img src="/img/rss_12x12.gif" width="12" height="12" hspace="0" vspace="0" border="0" alt="" style="vertical-align: text-bottom; padding-right: 3px;">RSS</a> | <a class="bluelink8" href="/news/index.html">Все новости...</p>
 				</td>
 			</tr>
@@ -699,11 +695,11 @@
 		<tr><th>Новое в архиве новостей:</th></tr>
 		<tr>
 			<td>
-				<ul class="items_list il_news_on_main_page"><li><span class="date">03.02.25&nbsp(11.12.04).</span> Замінили кабель. <a href="/news/29128/">Подробнее...</a></li>
+				<ul class="items_list il_news_on_main_page"><li><span class="date">05.02.25&nbsp(11.12.04).</span> Майстри фарбування тролейбусного депо №3. <a href="/news/29129/">Подробнее...</a></li>
+<li><span class="date">03.02.25&nbsp(11.12.04).</span> Замінили кабель. <a href="/news/29128/">Подробнее...</a></li>
 <li><span class="date">31.01.25&nbsp(04.12.04).</span> Секрет успіху — нарощування темпів. <a href="/news/29127/">Подробнее...</a></li>
 <li><span class="date">29.01.25&nbsp(04.12.04).</span> Щоб стати справжнім спеціалістом. <a href="/news/29126/">Подробнее...</a></li>
 <li><span class="date">27.01.25&nbsp(04.12.04).</span> Зміщено зупинку. <a href="/news/29125/">Подробнее...</a></li>
-<li><span class="date">24.01.25&nbsp(04.12.04).</span> Підготовка до зими: нове обладнання для транспорту. <a href="/news/29124/">Подробнее...</a></li>
 </ul></ul>
 				<p><a class="bluelink8" href="/news/new_in_archive/">Дальше</a>&nbsp;|&nbsp;<a class="bluelink8" href="/news/archive/">Весь архив...</a></p>
 			</td>

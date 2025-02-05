@@ -1,7 +1,7 @@
 import json
 
 
-def book_load(file):
+def book_load(file: str) -> list:
     """
     Загрузка книг.
     :param file:
@@ -11,7 +11,7 @@ def book_load(file):
         return json.load(file)
 
 
-def now_book(file):
+def now_book(file: str) -> None:
     """
     Вывод доступных книг.
     :param file:
@@ -24,7 +24,7 @@ def now_book(file):
             print(f"{book['назва']} от {book['автор']} ({book['рік']})")
 
 
-def add_book(file, new):
+def add_book(file: str, new: dict) -> None:
     """
     Добавление книг.
     :param file:
