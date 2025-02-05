@@ -1,4 +1,4 @@
-def sredarifm(fr_file: str, ex_file: str) -> None:
+def arithmetic_mean(fr_file: str, ex_file: str) -> None:
     """
     Вычисление среднего арифметического.
     :param fr_file:
@@ -27,4 +27,4 @@ def sredarifm(fr_file: str, ex_file: str) -> None:
         return
 
 
-sredarifm('srarif.txt', 'result.txt')
+arithmetic_mean('srarif.txt', 'result.txt')

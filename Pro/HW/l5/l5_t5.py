@@ -28,7 +28,7 @@ class Client:
         self.balance = balance
         self.curs = curs
 
-    def transaction_withdrawal(self, amount=0.0) -> None:
+    def transaction_withdrawal(self, amount: float) -> None:
         """
         Снятие.
         :param amount:

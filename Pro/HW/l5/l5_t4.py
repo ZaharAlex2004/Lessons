@@ -23,10 +23,10 @@ class Player:
     def __init__(self, gold: float) -> None:
         self.gold = gold
 
-    def source(self, type: str, r_gold=0) -> None:
+    def source(self, type_obj: str, r_gold=0) -> None:
         try:
             if self.gold < r_gold:
-                raise InsufficientResourcesException("gold", r_gold, self.gold)
+                raise InsufficientResourcesException(type_obj, r_gold, self.gold)
 
             self.gold -= r_gold
             print("Thank you! Product buyed!")
