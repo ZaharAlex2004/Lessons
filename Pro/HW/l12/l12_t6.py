@@ -1,6 +1,18 @@
 import threading
 import random
 import time
+import logging
+from concurrent.futures import ThreadPoolExecutor
+
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler('organism_simulation.log')
+    ]
+)
 
 
 class Organism:
@@ -21,9 +33,9 @@ class Organism:
         """
         if self.energy < 100:
             self.energy += 20
-            print(f"Организм возрастом {self.age} поел. Энергия: {self.energy}")
+            logging.info(f"Организм возрастом {self.age} поел. Энергия: {self.energy}")
         else:
-            print(f"Организм возрастом {self.age} уже полный.")
+            logging.info(f"Организм возрастом {self.age} уже полный.")
 
     def age_and_health(self):
         """
@@ -31,11 +43,12 @@ class Organism:
         :return:
         """
         self.age += 1
-        self.energy -= 10  # Потеря энергии с каждым циклом
-        self.health -= 5   # Потеря здоровья с каждым циклом
+        self.energy -= 10
+        self.health -= 5
 
         if self.energy <= 0 or self.health <= 0:
-            self.alive = False  # Организм умирает
+            self.alive = False
+            logging.info(f"Организм возрастом {self.age} умер.")
 
     def reproduce(self):
         """
@@ -44,8 +57,8 @@ class Organism:
         """
         if self.age > 5 and self.health > 50:
             self.is_reproductive = True
-            print(f"Организм возрастом {self.age} размножается.")
-            return Organism()  # Возвращаем нового организма (потомка)
+            logging.info(f"Организм возрастом {self.age} размножается.")
+            return Organism()
         return None
 
     def status(self):
@@ -60,19 +73,18 @@ def evolve_organism(organism, population):
     :return:
     """
     while organism.alive:
-        time.sleep(random.uniform(0.5, 2))  # Имитируем время для каждого организма
-        organism.eat()  # Потребление пищи
-        organism.age_and_health()  # Старение и потеря здоровья
+        time.sleep(random.uniform(0.5, 2))
+        organism.eat()
+        organism.age_and_health()
 
-        # Попытка размножения
         new_organism = organism.reproduce()
         if new_organism:
             population.append(new_organism)
 
-        print(organism.status())  # Вывод статуса организма
+        logging.info(organism.status())
 
 
-def simulation(initial_population_size=10):
+def simulation(initial_population_size=10, max_threads=5):
     """
     Функция симуляции
     :param initial_population_size:
@@ -81,18 +93,18 @@ def simulation(initial_population_size=10):
     population = [Organism() for _ in range(initial_population_size)]
     threads = []
 
-    # Создаем потоки для каждого организма
-    for organism in population:
-        thread = threading.Thread(target=evolve_organism, args=(organism, population))
-        threads.append(thread)
-        thread.start()
+    with ThreadPoolExecutor(max_threads) as executor:
+        for organism in population:
+            threads.append(executor.submit(evolve_organism, organism, population))
 
-    # Ожидание завершения всех потоков
-    for thread in threads:
-        thread.join()
+        for future in threads:
+            future.result()
 
-    print(f"Количество организмов после эволюции: {len(population)}")
+    logging.info(f"Количество организмов после эволюции: {len(population)}")
 
 
 if __name__ == "__main__":
-    simulation(10)
+    try:
+        simulation(10, max_threads=5)
+    except KeyboardInterrupt:
+        logging.info("Симуляция завершена пользователем.")
