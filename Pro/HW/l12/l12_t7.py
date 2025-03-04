@@ -14,14 +14,14 @@ logging.basicConfig(
 logger = logging.getLogger()
 
 
-def fact(first, last, res_queue, process_id):
+def fact(first: int | float, last: int | float, res_queue: multiprocessing.Queue, process_id: int) -> None:
     """
     Вычисление факториала для части диапазона.
-    :param first:
-    :param last:
-    :param res_queue:
-    :param process_id:
-    :return:
+    :param first: Первое число в диапазоне
+    :param last: Последнее число в диапазоне
+    :param res_queue: Очередь для передачи результата
+    :param process_id: Идентификатор процесса для логирования
+    :return: None
     """
     try:
         res = 1
@@ -34,11 +34,11 @@ def fact(first, last, res_queue, process_id):
         logger.error(f"Ошибка в процессе {process_id}: {e}")
 
 
-def fact_multiprocessing(num):
+def fact_multiprocessing(num: int) -> int:
     """
     Вычисление факториала с использованием процессов и многозадачности.
-    :param num:
-    :return:
+    :param num: Номер факториала
+    :return: Факториал числа `num`
     """
     num_processes = 4
     step = num // num_processes

@@ -15,11 +15,11 @@ logging.basicConfig(
 logger = logging.getLogger()
 
 
-def search_in_file(file_path, search_text):
+def search_in_file(file_path: str, search_text: str) -> str:
     """
     Функция для поиска текста в файле
-    :param file_path:
-    :param search_text:
+    :param file_path: Путь файла
+    :param search_text: Поиск текста
     :return:
     """
     try:
@@ -36,12 +36,12 @@ def search_in_file(file_path, search_text):
         return f"Ошибка при обработке файла {file_path}: {e}"
 
 
-def search_text_in_files(paths, search_text, max_workers=4):
+def search_text_in_files(paths: str, search_text: str, max_workers=4) -> None:
     """
     Поиск текста в нескольких файлах с использованием потоков.
-    :param paths:
-    :param search_text:
-    :param max_workers:
+    :param paths: Путь файла
+    :param search_text: Поиск текста
+    :param max_workers: Максимальное число потоков
     :return:
     """
     with ThreadPoolExecutor(max_workers=max_workers) as executor:

@@ -19,7 +19,14 @@ class Organism:
     """
     Класс Organism
     """
-    def __init__(self, age=0, health=100, energy=50, is_reproductive=False):
+    def __init__(self, age=0, health=100, energy=50, is_reproductive=False) -> None:
+        """
+        Инициализация класса.
+        :param age: Возраст
+        :param health: Состояние здоровья
+        :param energy: Состояние энергии
+        :param is_reproductive: Репродуктивность
+        """
         self.age = age
         self.health = health
         self.energy = energy
@@ -65,13 +72,14 @@ class Organism:
         return f"Возраст: {self.age}, Здоровье: {self.health}, Энергия: {self.energy}, Репродуктивный: {self.is_reproductive}, Живой: {self.alive}"
 
 
-def evolve_organism(organism, population):
+def evolve_organism(organism: "Organism", population: list) -> None:
     """
     Функция для эволюции одного организма
-    :param organism:
-    :param population:
+    :param organism: Организм
+    :param population: Население
     :return:
     """
+    print(type(population))
     while organism.alive:
         time.sleep(random.uniform(0.5, 2))
         organism.eat()
@@ -84,7 +92,7 @@ def evolve_organism(organism, population):
         logging.info(organism.status())
 
 
-def simulation(initial_population_size=10, max_threads=5):
+def simulation(initial_population_size=10, max_threads=5) -> None:
     """
     Функция симуляции
     :param initial_population_size:

@@ -66,7 +66,6 @@ def run_server():
 
 
 if __name__ == '__main__':
-    # Запуск сервера в отдельном потоке
     server_thread = threading.Thread(target=run_server)
     server_thread.daemon = True
     server_thread.start()

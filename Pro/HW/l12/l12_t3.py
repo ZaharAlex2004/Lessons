@@ -9,7 +9,7 @@ logging.basicConfig(
 )
 
 
-def calc_sum(part, result_queue):
+def calc_sum(part: list, result_queue: multiprocessing.Queue) -> None:
     """
     Вычисление суммы для части массива
     :param part:
@@ -24,22 +24,23 @@ def calc_sum(part, result_queue):
         logging.error(f"Ошибка при вычислении суммы части {part}: {e}")
 
 
-def split_array(arr, num_parts):
+def split_array(arr: list, num_parts: int) -> list:
     """
     Разделение массива на части
     :param arr:
     :param num_parts:
     :return
     """
+    print(type(num_parts))
     avg_len = len(arr) // num_parts
     return [arr[i * avg_len: (i + 1) * avg_len] for i in range(num_parts)]
 
 
-def parallel_sum(arr, num_parts):
+def parallel_sum(arr: list, num_parts: int) -> int:
     """
     Параллельное вычисление суммы массива
-    :param arr:
-    :param num_parts:
+    :param arr: Cписок чисел
+    :param num_parts: Количество частей.
     :return:
     """
     parts = split_array(arr, num_parts)

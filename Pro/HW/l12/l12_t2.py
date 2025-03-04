@@ -11,11 +11,11 @@ logging.basicConfig(
 )
 
 
-def resizing(image_path, output_path, new_size=(800, 600)):
+def resizing(image_path: str, output_path: str, new_size=(800, 600)) -> None:
     """
     Изменения размера изображения с отображением прогресса.
-    :param image_path:
-    :param output_path:
+    :param image_path: Файл изображения
+    :param output_path: Выходной путь
     :param new_size:
     """
     try:
@@ -29,12 +29,12 @@ def resizing(image_path, output_path, new_size=(800, 600)):
         print(f"Ошибка при обработке изображения {image_path}: {e}")
 
 
-def image_processing(paths, out_dir, max_workers=5):
+def image_processing(paths: list[str], out_dir: str, max_workers=5) -> None:
     """
     Обработка изображений с ограничением количества потоков.
-    :param paths:
-    :param out_dir:
-    :param max_workers:
+    :param paths: Путь
+    :param out_dir: Выходная директория
+    :param max_workers: Максимальное число потоков
     """
 
     if not os.path.exists(out_dir):

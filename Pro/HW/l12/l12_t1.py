@@ -5,11 +5,11 @@ import os
 from urllib.parse import urlsplit
 
 
-def download_file(url, save_path):
+def download_file(url: str, save_path: str) -> None:
     """
-    Загрузкам файлов
-    :param url:
-    :param save_path:
+    Загрузка файлов
+    :param url:адрес ресурса
+    :param save_path: путь сохранения
     :return:
     """
     try:
@@ -39,18 +39,17 @@ def download_file(url, save_path):
         print(f"Ошибка при сохранении файла {url}: {e}")
 
 
-def download_files_concurrently(urls, save_path, max_workers=5):
+def download_files_concurrently(urls: list[str], save_path: str, max_workers=5) -> None:
     """
-    Запуск файлов
-    :param urls:
-    :param save_path:
-    :param max_workers:
+    Одновременная загрузка файлов
+    :param urls: адреса ресурсов
+    :param save_path: путь сохранения
+    :param max_workers: максимальное число потоков
     :return:
     """
     if not os.path.exists(save_path):
         os.makedirs(save_path)
 
-        # Использование ThreadPoolExecutor с ограничением максимального числа потоков
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = []
         for url in urls:
