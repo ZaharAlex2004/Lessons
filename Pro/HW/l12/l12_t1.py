@@ -12,11 +12,19 @@ def download_file(url: str, save_path: str) -> None:
     :param save_path: путь сохранения
     :return:
     """
+    if not url.startswith('http'):
+        logging.error(f"Неверный URL: {url}")
+        print(f"Неверный URL: {url}")
+        return
+
     try:
         response = requests.get(url, stream=True)
         response.raise_for_status()
 
         filename = os.path.basename(urlsplit(url).path)
+        if not filename:
+            filename = urlsplit(url).netloc.split('/')[0]
+
         full_save_path = os.path.join(save_path, filename)
 
         total_size = int(response.headers.get('Content-Length', 0))
@@ -49,6 +57,8 @@ def download_files_concurrently(urls: list[str], save_path: str, max_workers=5) 
     """
     if not os.path.exists(save_path):
         os.makedirs(save_path)
+
+    max_workers = min(max_workers, len(urls))
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = []
