@@ -1,4 +1,12 @@
 import asyncio
+import logging
+
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[logging.StreamHandler(), logging.FileHandler('5_tasks.log')]
+)
 
 
 async def producer(queue: asyncio.queues.Queue) -> None:
@@ -9,6 +17,7 @@ async def producer(queue: asyncio.queues.Queue) -> None:
     """
     for i in range(5):
         task = f"Задание {i + 1}"
+        logging.info(f"Производитель добавляет: {task}")
         print(f"Производитель добавляет: {task}")
         await queue.put(task)
         await asyncio.sleep(1)
@@ -25,6 +34,7 @@ async def consumer(queue: asyncio.queues.Queue, consumer_id: int) -> None:
         task = await queue.get()
         if task is None:
             break
+        logging.info(f"Потребитель {consumer_id} выполняет: {task}")
         print(f"Потребитель {consumer_id} выполняет: {task}")
         await asyncio.sleep(2)
         queue.task_done()

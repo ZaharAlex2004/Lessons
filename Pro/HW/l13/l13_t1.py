@@ -1,5 +1,13 @@
 import asyncio
 import random
+import logging
+
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[logging.StreamHandler(), logging.FileHandler('url_loading.log')]
+)
 
 
 async def download_page(url: str) -> None:
@@ -9,8 +17,10 @@ async def download_page(url: str) -> None:
     :return:
     """
     delay = random.randint(1, 5)
+    logging.info(f"Початок {url}")
     print(f"Початок {url}")
     await asyncio.sleep(delay)
+    logging.info(f"Завершено {url} на {delay} сек.")
     print(f"Завершено {url} на {delay} сек.")
 
 

@@ -4,6 +4,14 @@ import aiohttp
 import asyncio
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 from typing import Callable, List
+import logging
+
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[logging.StreamHandler(), logging.FileHandler('l13_t7.log')]
+)
 
 
 URL = 'https://gortransport.kharkov.ua/'
@@ -76,15 +84,19 @@ def main() -> None:
     :return:
     """
     sync_time = measure_time(sync_request, 0)
+    logging.info(f"Синхронный режим: {sync_time:.2f} секунд")
     print(f"Синхронный режим: {sync_time:.2f} секунд")
 
     thread_time = measure_time(thread_request, 10)
+    logging.info(f"Многопоточный режим: {thread_time:.2f} секунд")
     print(f"Многопоточный режим: {thread_time:.2f} секунд")
 
     process_time = measure_time(process_request, 4)
+    logging.info(f"Многопроцессорный режим: {process_time:.2f} секунд")
     print(f"Многопроцессорный режим: {process_time:.2f} секунд")
 
     async_time = measure_time(lambda: asyncio.run(async_main()))
+    logging.info(f"Асинхронный режим: {async_time:.2f} секунд")
     print(f"Асинхронный режим: {async_time:.2f} секунд")
 
 

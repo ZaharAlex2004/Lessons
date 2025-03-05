@@ -1,5 +1,13 @@
 import asyncio
 import aiohttp
+import logging
+
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[logging.StreamHandler(), logging.FileHandler('img_load.log')]
+)
 
 
 async def download_image(url: str, files: str):
@@ -8,8 +16,10 @@ async def download_image(url: str, files: str):
             if response.status == 200:
                 with open(files, 'wb') as f:
                     f.write(await response.read())
+                logging.info(f"Изображение сохранено как {files}")
                 print(f"Изображение сохранено как {files}")
             else:
+                logging.info(f"Ошибка при загрузке изображения с {url}")
                 print(f"Ошибка при загрузке изображения с {url}")
 
 

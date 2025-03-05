@@ -1,6 +1,14 @@
 import asyncio
 from aiohttp import web
 from aiohttp.web import Request, Response
+import logging
+
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[logging.StreamHandler(), logging.FileHandler('site_requests.log')]
+)
 
 
 async def hello(request: Request) -> Response:
