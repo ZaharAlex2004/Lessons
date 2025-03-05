@@ -1,0 +1,6 @@
+2025-03-05 10:50:02,972 - INFO - Початок http://gortransport.kharkov.ua/
+2025-03-05 10:50:02,972 - INFO - Початок https://wokwi.com/
+2025-03-05 10:50:02,972 - INFO - Початок https://example.net
+2025-03-05 10:50:03,972 - INFO - Завершено https://example.net на 1 сек.
+2025-03-05 10:50:04,975 - INFO - Завершено https://wokwi.com/ на 2 сек.
+2025-03-05 10:50:06,985 - INFO - Завершено http://gortransport.kharkov.ua/ на 4 сек.
