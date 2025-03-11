@@ -10,7 +10,7 @@ def home_view(request: HttpRequest) -> render:
     :return: render
     """
     today = timezone.now()
-    return render(request, "l15/home.html", {"today": today})
+    return render(request, "home/home.html", {"today": today})
 
 
 def about_view(request: HttpRequest) -> render:
@@ -19,7 +19,7 @@ def about_view(request: HttpRequest) -> render:
     :param request: HttpRequest
     :return: render
     """
-    return render(request, "l15/about.html")
+    return render(request, "home/about.html")
 
 
 def contact_view(request: HttpRequest) -> render:
@@ -28,7 +28,7 @@ def contact_view(request: HttpRequest) -> render:
     :param request: HttpRequest
     :return: render
     """
-    return render(request, "l15/contact.html")
+    return render(request, "home/contact.html")
 
 
 def event_view(request: HttpRequest, year=None, month=None, day=None) -> render:
@@ -40,7 +40,7 @@ def event_view(request: HttpRequest, year=None, month=None, day=None) -> render:
     :param day: День
     :return: render
     """
-    return render(request, 'l15/event.html', {'year': year, 'month': month, 'day': day})
+    return render(request, 'home/event.html', {'year': year, 'month': month, 'day': day})
 
 
 def post_view(request: HttpRequest, id: int) -> render:
@@ -50,7 +50,7 @@ def post_view(request: HttpRequest, id: int) -> render:
     :param id: ID
     :return: render
     """
-    return render(request, 'l15/post.html', {'id': id})
+    return render(request, 'home/post.html', {'id': id})
 
 
 def profile_view(request: HttpRequest, username: str) -> render:
@@ -60,4 +60,4 @@ def profile_view(request: HttpRequest, username: str) -> render:
     :param username: Имя пользователя
     :return: render
     """
-    return render(request, "l15/profile.html", {'username': username})
+    return render(request, "home/profile.html", {'username': username})

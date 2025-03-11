@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} My Django Site {% endblock %}</title>
+    <link rel="shortcut icon" href="#" />
+    {% load static %}
+    <link rel="stylesheet"  href="{% static 'home.css' %}">
+</head>
+<body>
+    <header>
+        <nav role="navigation" id="show_nav" class="nb">
+            <ul class="u1">
+                <li class="li2"><a class="a1" href="/">Home</a></li>
+                <li class="li2"><a class="a1" href="/about/">About</a></li>
+                <li class="li2"><a class="a1" href="/contact/">Contact</a></li>
+                <li class="li2"><a class="a1" href="/event/2024/08/15/">Event</a></li>
+                <li class="li2"><a class="a1" href="/post/123/">Post</a></li>
+                <li class="li2"><a class="a1" href="/profile/john/">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        <!-- Default content or page-specific content will go here -->
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p class="g1">&copy; 2025, created by Zakharchenko</p>
+    </footer>
+</body>
+</html>
