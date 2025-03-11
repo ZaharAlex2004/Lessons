@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} My Django Site {% endblock %}</title>
+    <link rel="stylesheet" href="../../static/home.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/contact/">Contact</a></li>
+                <li><a href="/event/">Event</a></li>
+                <li><a href="/post/">Post</a></li>
+                <li><a href="/profile/">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        <!-- Default content or page-specific content will go here -->
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p class="g1">&copy; 2025, created by Zakharchenko</p>
+    </footer>
+</body>
+</html>
