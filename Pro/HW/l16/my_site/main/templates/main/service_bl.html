@@ -1,0 +1,27 @@
+{% extends "main/service.html" %}
+
+{% block title %}
+Services
+{% endblock %}
+
+{% block content %}
+<h1 class="g1 my-4">Послуги</h1>
+
+{% if services %}
+    <ul class="list-group">
+        {% for service in services %}
+            <li class="list-group-item">
+                <h5 class="mb-1">{{ service.name|upper }}</h5>
+                <p class="mb-1">{{ service.description|truncatechars:100 }}</p>
+                <p class="mb-1">Ціна: {{ service.price }} грн.</p>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <p>Доступные послуги: {{ services|length|yesno:"Присутні,Відсутні" }}</p>
+
+    <p>Усього послугів: {{ services|length }} {% if services|length < 1 %}послуга{% else %}послуги{% endif %}.</p>
+{% else %}
+    <p>На даний момент послуги не доступні.</p>
+{% endif %}
+{% endblock %}

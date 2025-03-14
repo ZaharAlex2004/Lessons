@@ -1,0 +1,10 @@
+{% extends "main/base.html" %}
+
+{% block title %}
+Home Page
+{% endblock %}
+
+{% block content %}
+<h1 class="jumbotron text-center">Ласкаво просимо на головну сторінку</h1>
+<p>Сьогодні: {{ today|date:"F j, Y" }}</p>
+{% endblock %}
