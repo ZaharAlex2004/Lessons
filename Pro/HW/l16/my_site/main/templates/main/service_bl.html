@@ -18,10 +18,10 @@ Services
         {% endfor %}
     </ul>
 
-    <p>Доступные послуги: {{ services|length|yesno:"Присутні,Відсутні" }}</p>
+    <p class="mb-1">Доступные послуги: {{ services|length|yesno:"Присутні,Відсутні" }}</p>
 
-    <p>Усього послугів: {{ services|length }} {% if services|length < 1 %}послуга{% else %}послуги{% endif %}.</p>
+    <p class="mb-1">Усього послугів: {{ services|length }} {% if services|length < 1 %}послуга{% else %}послуги{% endif %}.</p>
 {% else %}
-    <p>На даний момент послуги не доступні.</p>
+    <p class="mb-1">На даний момент послуги не доступні.</p>
 {% endif %}
 {% endblock %}

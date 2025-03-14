@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %} My Django Site {% endblock %}</title>
-    <link rel="shortcut icon" href="#" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="#" />
     {% load static %}
     <link rel="stylesheet"  href="{% static 'home.css' %}">
 </head>
 <body>
     <header>
         <nav role="navigation" id="show_nav" class="nb navbar navbar-expand-lg navbar-light bg-light">
-            <ul class="u1">
-                <li class="li2 nav-link"><a class="a1 nav-link" href="/">Home</a></li>
-                <li class="li2 nav-link"><a class="a1 nav-link" href="/about/">About</a></li>
-                <li class="li2 nav-link"><a class="a1 nav-link" href="/contact/">Contact</a></li>
-                <li class="li2 nav-link"><a class="a1 nav-link" href="/service/">Service</a></li>
-                <li class="li2 nav-link"><a class="a1 nav-link" href="/event/2024/08/15/">Event</a></li>
-                <li class="li2 nav-link"><a class="a1 nav-link" href="/post/123/">Post</a></li>
-                <li class="li2 nav-link"><a class="a1 nav-link" href="/profile/john/">Profile</a></li>
+            <ul class="u1 navbar-nav ml-auto">
+                <li class="li2 nav-item"><a class="a1 nav-link" href="/">Home</a></li>
+                <li class="li2 nav-item"><a class="a1 nav-link" href="/about/">About</a></li>
+                <li class="li2 nav-item"><a class="a1 nav-link" href="/contact/">Contact</a></li>
+                <li class="li2 nav-item"><a class="a1 nav-link" href="/service/">Service</a></li>
+                <li class="li2 nav-item"><a class="a1 nav-link" href="/event/2024/08/15/">Event</a></li>
+                <li class="li2 nav-item"><a class="a1 nav-link" href="/post/123/">Post</a></li>
+                <li class="li2 nav-item"><a class="a1 nav-link" href="/profile/john/">Profile</a></li>
             </ul>
         </nav>
     </header>
@@ -33,9 +33,7 @@
     <footer class="bg-light text-center py-3">
         <p class="g1">&copy; 2025, created by Zakharchenko</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </html>
