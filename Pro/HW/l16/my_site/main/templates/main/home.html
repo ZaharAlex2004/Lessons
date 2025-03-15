@@ -1,10 +1,8 @@
-{% extends "main/base.html" %}
-
-{% block title %}
-Home Page
-{% endblock %}
-
-{% block content %}
-<h1 class="jumbotron text-center">Ласкаво просимо на головну сторінку</h1>
-<p>Сьогодні: {{ today|date:"F j, Y" }}</p>
-{% endblock %}
+{% include 'main/header.html' %}
+<title>{% block title %} Home {% endblock %}</title>
+<main class="container mt-5">
+    <h1 class="jumbotron text-center">Ласкаво просимо на головну сторінку</h1>
+    <p class="mb-1">Сьогодні: {{ today|date:"F j, Y" }}</p>
+</main>
+{% include 'main/footer.html' %}
+{% include 'main/scripts.html' %}
