@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import AbstractUser
+from django.contrib.auth.models import AbstractUser, User
 from django.core.exceptions import ValidationError
 from django.utils import timezone
 from datetime import timedelta
@@ -11,6 +11,28 @@ class User(AbstractUser):
 
     def __str__(self) -> str:
         return self.username
+
+
+class UserProfile(AbstractUser):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    bio = models.TextField(max_length=500, blank=True)
+    birth_date = models.DateField(null=True, blank=True)
+    location = models.TextField(max_length=100, blank=True)
+    avatar = models.ImageField(upload_to='avatars/', null=True, blank=True)
+
+    groups = models.ManyToManyField(
+        'auth.Group',
+        related_name='userprofile_set',
+        blank=True
+    )
+    user_permissions = models.ManyToManyField(
+        'auth.Permission',
+        related_name='userprofile_set',
+        blank=True
+    )
+
+    def __str__(self):
+        return f"{self.user.username}'s Profile"
 
 
 class Category(models.Model):
@@ -68,3 +90,7 @@ class Comment(models.Model):
         :return: Количество комментариев
         """
         return ad.comments.count()
+
+
+class Contact(models.Model):
+    pass

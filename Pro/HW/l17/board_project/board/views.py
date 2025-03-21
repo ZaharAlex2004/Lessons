@@ -1,9 +1,17 @@
+from django.contrib.auth import login
+from django.contrib.auth.decorators import login_required
 from django.http import HttpRequest
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from datetime import timedelta
 from django.utils import timezone
-from .models import Ad, User, Comment
+from rest_framework.generics import ListCreateAPIView
+from rest_framework.views import APIView
+from rest_framework.response import Response
+
+from .models import Ad, User, Comment, Contact, UserProfile
+from .forms import RegistrationForm, UserProfileForm, CustomPasswordChangeForm
 from .services import *
+from .serializers import ContactSerializer
 
 
 def home_view(request: HttpRequest) -> render:
@@ -66,3 +74,62 @@ def ad_detail_view(request: HttpRequest, ad_id: int) -> render:
         'ad': ad,
         'comments': comments,
     })
+
+
+class HelloWorldView(APIView):
+    def get(self, request):
+        return Response({'message': 'Hello World!'})
+
+
+class ContactListView(ListCreateAPIView):
+    queryset = Contact.objects.all()
+    serializer_class = ContactSerializer()
+
+
+def base_view(request: HttpRequest) -> render:
+    return render(request, "form/base.html")
+
+
+@login_required
+def register_view(request: HttpRequest) -> render:
+    if request.method == "POST":
+        form = RegistrationForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            UserProfile.objects.create(user=user)
+            login(request, user)
+            return redirect('profile')
+    else:
+        form = RegistrationForm()
+    return render(request, "form/register.html", {'form': form})
+
+
+@login_required
+def edit_profile_view(request: HttpRequest) -> render:
+    user_profile = UserProfile.objects.get(user=request.user)
+    if request.method == "POST":
+        form = UserProfileForm(request.POST, request.FILES, instance=user_profile)
+        if form.is_valid():
+            form.save()
+            return redirect('profile')
+    else:
+        form = UserProfileForm(instance=user_profile)
+    return render(request, "form/edit_profile.html", {'form': form})
+
+
+@login_required
+def change_password_view(request: HttpRequest) -> render:
+    if request.method == "POST":
+        form = CustomPasswordChangeForm(request.user, request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('profile')
+    else:
+        form = CustomPasswordChangeForm(request.user)
+    return render(request, "form/change_password.html", {'form': form})
+
+
+@login_required
+def profile_view(request: HttpRequest) -> render:
+    user_profile = request.user.userprofile
+    return render(request, "form/profile.html", {'user_profile': user_profile})

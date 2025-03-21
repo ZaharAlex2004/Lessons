@@ -1,0 +1,13 @@
+{% include 'form/head.html' %}
+{% block content %}
+    <div class="container mt-5">
+         <h2 class="jumbotron text-center">Login</h2>
+         <form class="list-group-item" method="post">
+           {% csrf_token %}
+           {{ form.as_p }}
+           <button type="submit">Login</button>
+         </form>
+    </div>
+{% endblock %}
+{% include 'form/footer.html' %}
+{% include 'form/scripts.html' %}

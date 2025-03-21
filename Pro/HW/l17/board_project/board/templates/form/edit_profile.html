@@ -1,0 +1,14 @@
+{% include 'form/head.html' %}
+
+{% block content %}
+    <div class="container mt-5">
+    <h2 class="jumbotron text-center">Редагувати профіль</h2>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Зберегти</button>
+        </form>
+    </div>
+{% endblock %}
+{% include 'form/footer.html' %}
+{% include 'form/scripts.html' %}
