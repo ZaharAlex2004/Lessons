@@ -1,0 +1,27 @@
+<form method="GET" class="mb-4">
+    <div class="form-group">
+        <label for="category">Фільтрувати за категорією:</label>
+        <select id="category" name="category" class="form-control">
+            <option value="">Всі категорії</option>
+            {% for category in categories %}
+                <option value="{{ category.id }}" {% if category.id == request.GET.category %}selected{% endif %}>
+                    {{ category.name }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <div class="form-group mt-2">
+        <label for="user">Фільтрувати за користувачем:</label>
+        <select id="user" name="user" class="form-control">
+            <option value="">Всі користувачі</option>
+            {% for user in users %}
+                <option value="{{ user.id }}" {% if user.id == request.GET.user %}selected{% endif %}>
+                    {{ user.username }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Фільтрувати</button>
+</form>
