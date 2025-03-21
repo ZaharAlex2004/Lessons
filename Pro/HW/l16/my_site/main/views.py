@@ -14,7 +14,7 @@ class ContactView(View):
         :param request: HttpRequest
         :return: render
         """
-        return render(request, "main/contact_bl.html")
+        return render(request, "main/contact.html")
 
 
 class ServiceView(View):
@@ -32,7 +32,7 @@ class ServiceView(View):
             {"name": "SEO-оптимізація", "description": "Оптимізація для пошукових систем", "price": 300},
             {"name": "Маркетинг", "description": "Просування в інтернеті", "price": 200},
         ]
-        return render(request, "main/service_bl.html", {'services': services})
+        return render(request, "main/service.html", {'services': services})
 
 
 def home_view(request: HttpRequest) -> render:
@@ -51,7 +51,7 @@ def about_view(request: HttpRequest) -> render:
     :param request: HttpRequest
     :return: render
     """
-    return render(request, "main/about_bl.html")
+    return render(request, "main/about.html")
 
 
 def event_view(request: HttpRequest, year=None, month=None, day=None) -> render:
