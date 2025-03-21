@@ -9,7 +9,7 @@ class User(AbstractUser):
     phone_number = models.CharField(max_length=15, blank=True, null=True)
     address = models.CharField(max_length=255, blank=True, null=True)
 
-    def __str__(self):
+    def __str__(self) -> str:
         return self.username
 
 
@@ -17,7 +17,7 @@ class Category(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
 
-    def __str__(self):
+    def __str__(self) -> str:
         return self.name
 
 
@@ -30,10 +30,10 @@ class Ad(models.Model):
     category = models.ForeignKey('Category', on_delete=models.SET_NULL, null=True, blank=True)
     user = models.ForeignKey('User', on_delete=models.CASCADE)
 
-    def __str__(self):
+    def __str__(self) -> str:
         return self.title
 
-    def deactivate_after_30_days(self):
+    def deactivate_after_30_days(self) -> None:
         """
         Метод для автоматической деактивации объявления через 30 дней
         :return:
@@ -42,7 +42,7 @@ class Ad(models.Model):
             self.is_active = False
             self.save()
 
-    def clean(self):
+    def clean(self) -> None:
         """
         Валидатор для поля цены, проверка на положительное значение
         :return:
@@ -57,14 +57,14 @@ class Comment(models.Model):
     ad = models.ForeignKey(Ad, related_name='comments', on_delete=models.CASCADE)
     user = models.ForeignKey('User', on_delete=models.CASCADE)
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f'Коментарій {self.user} до оголошення {self.ad}'
 
     @staticmethod
-    def count_comments(ad):
+    def count_comments(ad: 'Ad') -> int:
         """
         Метод для подсчета комментариев к объявлению
         :param ad: Объявление
-        :return:
+        :return: Количество комментариев
         """
         return ad.comments.count()

@@ -55,9 +55,6 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'board_project.urls'
 
 
-#TEST_RUNNER = 'django.test.runner.DiscoverRunner'
-
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',

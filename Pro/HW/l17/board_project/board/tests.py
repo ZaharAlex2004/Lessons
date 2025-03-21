@@ -8,7 +8,10 @@ from django.utils import timezone
 
 class AdModelTest(TestCase):
     def test_auto_deactivate_ad(self):
-        # Create a user
+        """
+        Автодеактивация.
+        :return:
+        """
         user = get_user_model().objects.create_user(username="testuser", email="test@example.com", password="password123")
 
         # Create a category (required because the Ad model has a ForeignKey to Category)
@@ -30,6 +33,10 @@ class AdModelTest(TestCase):
 class CommentModelTest(TestCase):
 
     def test_count_comments(self):
+        """
+        Подсчёт комментариев.
+        :return:
+        """
         user = User.objects.create(username="user1", email="user1@example.com")
         category = Category.objects.create(name="Category1")
         ad = Ad.objects.create(title="Ad 1", description="Description", price=100, user=user, category=category)

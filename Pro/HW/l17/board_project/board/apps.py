@@ -6,4 +6,8 @@ class BoardConfig(AppConfig):
     name = 'board'
 
     def ready(self):
+        """
+        Готовность сигнала.
+        :return:
+        """
         import board.signals
