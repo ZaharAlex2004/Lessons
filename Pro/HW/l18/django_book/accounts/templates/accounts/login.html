@@ -1,0 +1,17 @@
+{% include 'accounts/linker.html' %}
+<h2 class="jumbotron text-center">Вхід</h2>
+{% if messages %}
+    <ul>
+        {% for message in messages %}
+            <li class="message">{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+<div class="container mt-5">
+     <form class="list-group-item" method="POST">
+         {% csrf_token %}
+         {{ form.as_p }}
+         <button type="submit">Login</button>
+     </form>
+</div>
+{% include 'accounts/scripts.html' %}

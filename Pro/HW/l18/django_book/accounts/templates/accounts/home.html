@@ -1,0 +1,8 @@
+{% include 'accounts/head.html' %}
+<title>{% block title %} Home {% endblock %}</title>
+<main class="container mt-5">
+    <h1 class="jumbotron text-center">Ласкаво просимо на головну сторінку</h1>
+    <p class="mb-1">Сьогодні: {{ today|date:"F j, Y" }}</p>
+</main>
+{% include 'accounts/footer.html' %}
+{% include 'accounts/scripts.html' %}

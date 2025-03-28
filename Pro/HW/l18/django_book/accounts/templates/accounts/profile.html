@@ -1,0 +1,17 @@
+{% include 'accounts/head.html' %}
+{% block content %}
+    <div class="container mt-5">
+        <h2 class="jumbotron text-center">Профіль</h2>
+            {% if user_profile.avatar %}
+                <img src="{{ user_profile.avatar.url }}" alt="Avatar">
+            {% else %}
+                <p class="mb-1">Зображення не завантажено.</p>
+            {% endif %}
+        <p class="mb-1">Ім'я: {{ user_profile.user.username }}</p>
+        <p class="mb-1">Біографія: {{ user_profile.bio }}</p>
+        <p class="mb-1">Дата народження: {{ user_profile.birth_date }}</p>
+        <p class="mb-1">Місто: {{ user_profile.location }}</p>
+    </div>
+{% endblock %}
+{% include 'accounts/footer.html' %}
+{% include 'accounts/scripts.html' %}

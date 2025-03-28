@@ -1,0 +1,10 @@
+{% include 'accounts/linker.html' %}
+<h2 class="jumbotron text-center">Профіль</h2>
+<form class="container mt-5" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit</button>
+</form>
+
+<p class="container mt-5">You entered: {{ user_input }}</p>
+{% include 'accounts/scripts.html' %}
