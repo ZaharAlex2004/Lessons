@@ -75,13 +75,20 @@ class CustomUser(AbstractBaseUser):
 
 
 class Task(models.Model):
+    """
+    Класс Task
+    """
     title = models.CharField(max_length=255)
     description = models.TextField()
     due_date = models.DateField()
     user = models.ForeignKey(User, on_delete=models.CASCADE)
 
-    def __str__(self):
+    def __str__(self) -> Any:
         return self.title
 
-    def is_overdue(self):
+    def is_overdue(self) -> Any:
+        """
+        Проверка просрочености
+        :return: self.due_date < timezone.now().date()
+        """
         return self.due_date < timezone.now().date()

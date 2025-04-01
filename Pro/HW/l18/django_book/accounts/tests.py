@@ -16,6 +16,10 @@ from .serializers import TaskSerializer, TaskWithUserSerializer
 
 @pytest.mark.django_db
 def test_task_form_valid_data():
+    """
+    Проверка данных
+    :return:
+    """
     form_data = {
         'title': 'Test Task',
         'description': 'This is a test task.',
@@ -27,6 +31,10 @@ def test_task_form_valid_data():
 
 @pytest.mark.django_db
 def test_task_form_missing_required_fields():
+    """
+    Проверка на отсутствующие обязательные поля
+    :return:
+    """
     form_data = {
         'title': '',
         'description': '',
@@ -41,6 +49,10 @@ def test_task_form_missing_required_fields():
 
 @pytest.mark.django_db
 def test_task_form_invalid_due_date():
+    """
+    Проверка данных оплаты
+    :return:
+    """
     form_data = {
         'title': 'Test Task',
         'description': 'This is a test task.',
@@ -53,6 +65,10 @@ def test_task_form_invalid_due_date():
 
 @pytest.mark.django_db
 def test_task_serializer_valid_data():
+    """
+    Проверка данных сериализации
+    :return:
+    """
     task_data = {
         'title': 'Test Task',
         'description': 'This is a test task.',
@@ -64,6 +80,10 @@ def test_task_serializer_valid_data():
 
 @pytest.mark.django_db
 def test_task_serializer_missing_required_fields():
+    """
+    Проверка данных на отсутствующие обязательные поля
+    :return:
+    """
     task_data = {
         'title': '',
         'description': '',
@@ -78,6 +98,10 @@ def test_task_serializer_missing_required_fields():
 
 @pytest.mark.django_db
 def test_task_serializer_invalid_due_date():
+    """
+    Проверка срока оплаты
+    :return:
+    """
     task_data = {
         'title': 'Test Task',
         'description': 'This is a test task.',
@@ -94,6 +118,10 @@ from django.contrib.auth import get_user_model
 
 @pytest.fixture
 def user():
+    """
+    Пользователь
+    :return:
+    """
     username = f'testuser_{uuid.uuid4().hex[:8]}'
     email = f'{username}@example.com'
     return get_user_model().objects.create(username=username, email=email)
@@ -101,10 +129,13 @@ def user():
 
 @pytest.mark.django_db
 def test_task_with_user_serializer_valid_data():
+    """
+    Проверка данных с сериализацией пользователя
+    :return:
+    """
     username = f'testuser_{uuid.uuid4().hex[:8]}_{random.randint(10000, 99999)}'
     email = f'{username}@example.com'
 
-    # Создаем нового пользователя с уникальными данными
     user = get_user_model().objects.create(username=username, email=email)
 
     task_data = {
@@ -123,6 +154,10 @@ def test_task_with_user_serializer_valid_data():
 
 @pytest.mark.django_db
 def test_task_with_user_serializer_invalid_user_data():
+    """
+    Проверка цели с сериализацией данных пользователя
+    :return:
+    """
     task_data = {
         'title': 'Test Task',
         'description': 'This is a test task.',
@@ -141,5 +176,9 @@ def test_task_with_user_serializer_invalid_user_data():
 
 @pytest.fixture(autouse=True)
 def clear_db():
+    """
+    Очистка БД
+    :return:
+    """
     from django.core.management import call_command
     call_command('flush', '--no-input', verbosity=0)
