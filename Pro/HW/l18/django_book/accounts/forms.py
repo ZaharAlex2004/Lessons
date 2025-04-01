@@ -1,8 +1,10 @@
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate
+from django.utils import timezone
 
 from .models import CustomUser
+from .models import Task
 
 
 class MyForm(forms.Form):
@@ -43,3 +45,15 @@ class UserLoginForm(forms.Form):
             user = authenticate(username=username, password=password)
             if user is None:
                 raise forms.ValidationError("Invalid login credentials")
+
+
+class TaskForm(forms.ModelForm):
+    class Meta:
+        model = Task
+        fields = ['title', 'description', 'due_date']
+
+    def clean_due_date(self):
+        due_date = self.cleaned_data.get('due_date')
+        if due_date and due_date < timezone.now().date():
+            raise forms.ValidationError('Дата не может быть в прошлом.')
+        return due_date
