@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html id="window">
+<meta charest="utf-8">
+<title>Харьковский троллейбус</title>
+
+<body onunload="alert('Вы точно решили покинуть наш сайт ?')">
+    <section id="begin" class="sec1">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/kharkiv_troll.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'slick/slick.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'slick/slick-theme.css' %}">
+        <headder id="pageHeader">
+            <head class="flex-countainer">
+                <img class="i1" src="{% static 'img/head_logo.png' %}">
+                <h1 class="gs">{{title}}</h1>
+            </head>
+        </headder>
+        <nav role="navigation" id="slow_nav">
+            <ul class="h1">
+                <li class="li2"><a class="a80" href="/">Главная</a></li>
+                <li class="li2"><a class="a80" href="{% url 'history' %}">История</a></li>
+                <li class="li2"><a class="a80" href="{% url 'depo' %}">Депо</a>
+                    <ul class="submenu lr9" id="square">
+                        <li class="li2">
+                            <a class="a80" href="{% url 'depo_2' %}">№2</a>
+                        </li>
+                        <li class="li2"><a class="a80" href="{% url 'depo_3' %}">№3</a>
+                        <li class="li2"><a class="a80" href="{% url 'depo_saltov' %}">Салтовское</a></li>
+                    </ul>
+
+                    <li class="li2"><a class="a80" href="{% url 'models' %}">Подвижной состав</a></li>
+                    <li class="li2"><a class="a80" href="{% url 'route' %}">Маршруты</a></li>
+                    <li class="li2"><a class="a80" href="{% url 'news' %}">Новости</a></li>
+                    <li class="li2"><a class="a80" href="{% url 'facts' %}">Факты</a></li>
+                    <li class="li2"><a class="a80" href="{% url 'different' %}">Разное</a>
+                        <ul class="submenu">
+                            <li class="li2"><a class="a80" href="{% url 'video' %}">Видео</a></li>
+                            <li class="li2"><a class="a80" href="{% url 'image' %}">Фотогалерея</a></li>
+                        </ul>
+                        <li class="li2"><a class="a80" href="{% url 'schema' %}">Схемы</a></li>
+                        <li class="a81">
+                            <a class="a81"><input type="search" name=""></a>
+                        </li>
+                        {% if user.is_authenticated %}
+                            <a class="a80" href="{% url 'logout' %}">Выход</a>
+                        {% else %}
+                            <a class="a80" href="{% url 'login' %}">Войти</a>
+                        {% endif %}
+                    </li>
+            </ul>
+        </nav>
+    </section>
+
+    {% block content %}
+
+    {% endblock %}
+
+</body>
+
+</html>

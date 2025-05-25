@@ -1,0 +1,776 @@
+body {
+    position: absolute;
+    display: block;
+    background-size: cover;
+    font-family: sans-serif;
+    background: url("../css/css_img/background.jpg");
+    grid-template-areas: "header header header" "nav article ads" "footer footer footer";
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 20% 1fr 15%;
+    grid-gap: 10px;
+    color: white;
+    backdrop-filter: blur(3px);
+}
+
+.gs {
+    position: relative;
+    text-align: center;
+}
+
+.grd6 {
+    position: relative;
+    text-align: center;
+}
+
+.grd7 {
+    position: absolute;
+    left: 472px;
+}
+
+.img2 {
+    left: 100px;
+}
+
+#pageHeader {
+    grid-area: header;
+}
+
+#pageFooter {
+    grid-area: footer;
+}
+
+#mainArticle {
+    grid-area: article;
+}
+
+#mainNav {
+    grid-area: nav;
+}
+
+#siteAds {
+    grid-area: ads;
+}
+
+#grid {
+    display: grid;
+    grid-template-rows: -5fr -5fr -5fr;
+    grid-template-columns: 0fr 0fr 0fr;
+}
+
+#grid>section {
+    background: forestgreen;
+    padding: .5em;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+}
+
+#grid>div {
+    background: forestgreen;
+    padding: .5em;
+    text-align: center;
+    width: 255px;
+    height: 200px;
+    margin: 10px;
+}
+
+#grid>td {
+    background: forestgreen;
+    padding: .5em;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+}
+
+#grid2 {
+    display: grid;
+    grid-template-rows: 5fr 5fr 5fr;
+    /*grid-template-columns: 0fr 0fr 0fr;*/
+}
+
+#grid3 {
+    display: grid;
+    /*grid-template-rows: 5fr 5fr 5fr 5fr 5fr 5fr 5fr;*/
+    grid-template-columns: 0fr 0fr 0fr 0fr 0fr 0fr 0fr;
+}
+
+/*ul {
+    position: relative;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}*/
+
+.a77 {
+    position: relative;
+    display: block;
+    padding: 13px;
+    background: green;
+    border: 3px solid #ffffff;
+    font-weight: 500;
+    width: 145px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    left: 832px;
+    bottom: -780px;
+}
+
+.a80 {
+    display: block;
+    position: relative;
+    background-color: #008000;
+    text-decoration: none;
+    padding: 14px;
+    color: white;
+    border: DarkGreen solid 5px;
+    transition: all 0.5s ease;
+}
+
+.a80:hover {
+    background-color: #32CD32;
+    transition: all 0.5s ease;
+    /*animation: rotate 2s linear infinite;
+    animation-duration: 5s;
+    animation-name: hover;*/
+    color: black;
+    /*transition-timing-function: .1s;
+    transition-duration: .1s;*/
+    border: DarkGreen solid 5px;
+    transition: all 0.5s ease;
+}
+
+.a81 {
+    display: block;
+    position: relative;
+    background-color: #008000;
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.a81:hover {
+    background-color: #32CD32;
+    transition: all 0.5s ease;
+    animation: rotate 2s linear infinite;
+    animation-duration: 5s;
+    animation-name: hover;
+    transition: all 0.5s ease;
+}
+
+.a91 {
+    display: block;
+    position: relative;
+    background-color: #008000;
+    text-decoration: none;
+    padding: 14px;
+    color: white;
+    border: DarkGreen solid 5px;
+}
+
+.a91:hover {
+    background-color: #32CD32;
+    transition: all 0.5s ease;
+    animation: rotate 2s linear infinite;
+    animation-duration: 5s;
+    animation-name: hover;
+    color: black;
+    transition-timing-function: .1s;
+    transition-duration: .1s;
+    border: DarkGreen solid 5px;
+}
+
+.a100 {
+    display: block;
+    position: relative;
+    background-color: #008000;
+    text-decoration: none;
+    padding: 14px;
+    color: white;
+    border: DarkGreen solid 5px;
+    bottom: -280px;
+    right: 395px;
+    transition: all 0.5s ease;
+}
+
+.a100:hover {
+    background-color: #32CD32;
+    transition: all 0.5s ease;
+    animation: rotate 2s linear infinite;
+    animation-duration: 5s;
+    color: black;
+    transition-timing-function: .1s;
+    transition-duration: .1s;
+    border: DarkGreen solid 5px;
+}
+
+.b1 {
+    display: inline-block;
+    padding: 10px;
+    background: green;
+    margin-right: 20px;
+}
+
+.b2 {
+    display: inline-block;
+    background: gray;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.b2:hover {
+    width: 120px;
+    height: 40px;
+    transition-timing-function: .10s;
+    transition-duration: .1s;
+}
+
+.b3 {
+    background: forestgreen;
+    border: 10px solid green;
+    position: relative;
+}
+
+.comm {
+    display: inline-block;
+    position: relative;
+    background-color: #008000;
+    text-decoration: none;
+    padding: 14px;
+    color: white;
+    border: DarkGreen solid 5px;
+    transition: all 0.5s ease;
+    margin-left: 25%;
+
+}
+
+.comlst {
+    list-style: none;
+    text-decoration: none;
+}
+
+.f97 {
+    position: relative;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    flex-direction: column;
+    list-style: none;
+    column-rule-color: DarkGreen;
+    column-rule-style: dotted;
+    column-rule-width: 3px;
+    column-gap: 7px;
+    right: 200px;
+}
+
+.hg {
+    text-align: center;
+}
+
+@keyframes hover {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 1px;
+    }
+}
+
+#slow_nav li ul {
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    top: 50px;
+    font-size: 15px;
+    max-height: 0px;
+    overflow: hidden;
+    -webkit-transition: max-height 0.4s linear;
+    -moz-transition: max-height 0.4s linear;
+    transition: max-height 0.4s linear;
+    left: -40px;
+}
+
+#slow_nav li ul li:first-child:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 10px;
+    top: -10px;
+}
+
+#slow_nav li:hover ul {
+    position: absolute;
+    max-height: 500px;
+}
+
+#slow_nav>ul>li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 0;
+}
+
+ul .rt77 {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+p {
+    display: block;
+}
+
+.gs {
+    position: relative;
+    text-align: center;
+}
+
+/*a {}
+
+a:hover {}*/
+
+.submenu {
+    display: block;
+    flex-direction: column;
+    position: relative;
+    animation-name: hover;
+}
+
+.submenu:hover {
+    display: none;
+    flex-direction: column;
+    position: relative;
+    animation-name: hover;
+}
+
+td,
+th {
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+.tb {
+    width: 30%;
+    border-collapse: collapse;
+    border-spacing: 10px 20px;
+    empty-cells: hide;
+    margin: auto;
+}
+
+.tb5 {
+    width: 30%;
+    border-collapse: collapse;
+    background-color: seagreen;
+    border: #008000 solid;
+    margin: auto;
+    text-align: center;
+}
+
+.tb6 {
+    border-collapse: collapse;
+    background-color: green;
+    border: darkgreen solid;
+}
+
+.li2 {
+    position: relative;
+    display: block;
+    transform: translate(0px, 0px);
+    transition: all 0.5s ease;
+}
+
+.li2:hover {
+    display: block;
+    padding-left: 0;
+    list-style: none;
+    /*animation-name: list;*/
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    transform: translate(5px, 5px);
+    transition: all 0.5s ease;
+}
+
+.li3 {
+    position: relative;
+    display: block;
+}
+
+.li3:hover {
+    display: block;
+    padding-left: 0;
+    list-style: none;
+    animation-name: list2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.li4 {
+    display: block;
+    list-style: none;
+}
+
+.lng {
+    height: 520px;
+}
+
+@keyframes list2 {
+    from {
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform: translate(7px, 7px);
+    }
+}
+
+@keyframes list {
+    from {
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform: translate(5px, 5px);
+    }
+}
+
+.v3 {
+    display: block;
+    align-content: center;
+    box-shadow: 0 0 30px green;
+}
+
+#begin.subHead {
+    padding: 0;
+    color: #5f5f5f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+#begin.btnMain {
+    display: block;
+    padding: 13px 30px;
+    margin: 55px auto 0 auto;
+    width: 112px;
+    background: none;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.t38 {
+    align-items: center;
+}
+
+li:hover .submenu {
+    display: flex;
+    color: #FFFF00;
+}
+
+element.style {
+    width: 20%;
+    border-left: 1px solid black;
+    font-size: 8pt;
+}
+
+footer {
+    position: absolute;
+    background: seagreen;
+    border: 3px dashed darkgreen;
+    width: 330px;
+    bottom: -1000px;
+    left: 750px;
+}
+
+.flex-countainer {
+    display: flex;
+    float: right;
+    background-color: forestgreen;
+    justify-content: center;
+    margin-right: 10px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+.news_list{
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.osnova{
+    width: 1895px;
+}
+
+.r1 {
+    position: relative;
+    align-items: flex-start;
+    height: 30px;
+    text-align: center;
+}
+
+
+.r12 {
+    background: #32CD32;
+    position: absolute;
+    left: 400px;
+}
+
+.r13 {
+    background: #228B22;
+}
+
+.register{
+    position: relative;
+    background-color: #008000;
+    text-decoration: none;
+    padding: 14px;
+    color: white;
+    border: DarkGreen solid 5px;
+    transition: all 0.5s ease;
+}
+
+.register:hover {
+    background-color: #32CD32;
+    transition: all 0.5s ease;
+    /*animation-duration: 5s;
+    animation-name: hover;*/
+    color: black;
+    /*transition-timing-function: .1s;
+    transition-duration: .1s;*/
+    border: DarkGreen solid 5px;
+    transition: all 0.5s ease;
+}
+
+.register2{
+    position: relative;
+    background-color: #008000;
+    text-decoration: none;
+    padding: 14px;
+    color: white;
+    border: DarkGreen solid 5px;
+    transition: all 0.5s ease;
+}
+
+.register2:hover {
+    background-color: #32CD32;
+    transition: all 0.5s ease;
+    /*animation-duration: 5s;
+    animation-name: hover;*/
+    color: black;
+    /*transition-timing-function: .1s;
+    transition-duration: .1s;*/
+    border: DarkGreen solid 5px;
+    transition: all 0.5s ease;
+}
+
+.flex-item {
+    display: flex;
+    float: right;
+    padding: 150px;
+    width: 500px;
+    height: 100px;
+    text-align: left;
+    border: 10px solid DarkGreen;
+    align-self: flex-start;
+    flex-direction: column-reverse;
+    align-content: center;
+    margin-right: 10px;
+}
+
+.i1 {
+    width: 1300px;
+    height: 247px;
+}
+
+.i2 {
+    width: 420px;
+    height: 305px;
+    left: 900px;
+}
+
+.i3 {
+    position: absolute;
+    right: -900px;
+    bottom: -0px;
+}
+
+.i4 {
+    height: 88%;
+}
+
+.i5 {
+    margin-left: 38%;
+}
+
+.i44 {
+    /*width: 315px;
+    height: 200px;*/
+}
+
+.i48 {
+    width: 255px;
+    height: 200px;
+}
+
+.i56 {
+    display: block;
+    position: relative;
+    width: 540px;
+    height: 500px;
+    margin: auto;
+}
+
+.i56:focus {
+    width: 2000px;
+    height: 2000px;
+}
+
+.cle1 {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+div.c33 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+ul.f77 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    column-rule-color: DarkGreen;
+    column-rule-style: dotted;
+    column-rule-width: 3px;
+    column-gap: 7px;
+    align-items: center;
+}
+
+@media (min-width: 375px) and (max-width: 1024px) {
+    .flex-item {
+        width: 200px;
+        flex-direction: column;
+    }
+}
+
+.v1:hover {
+    background: green;
+}
+
+.slider-item {
+    width: 1890px;
+}
+
+.slick-prev {
+    display: flex;
+    background-color: forestgreen;
+    padding: 4px;
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    align-items: center;
+}
+
+.slick-next {
+    display: flex;
+    background-color: forestgreen;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    right: 0;
+    border: none;
+}
+
+.item-block {
+    /*width: 315px;*/
+    height: 200px;
+    margin: 10px;
+}
+
+.slick-prev::before {
+    content: url('css_img/prev_2.png');
+    width: 45px;
+    height: 45px;
+    transform: translate(2px, 2px);
+}
+
+.slick-next::before {
+    content: url('css_img/next.png');
+    width: 45px;
+    height: 45px;
+}
+
+.h1 {
+    position: relative;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    margin: 10px;
+    border: DarkGreen solid;
+    background: #008000;
+    z-index: 1;
+}
+
+.ta1 {
+    width: 98%;
+    display: flex;
+}
+
+.usrnmc {
+    position: relative;
+    background-color: seagreen;
+    text-decoration: none;
+    padding: 14px;
+    color: white;
+    border: DarkGreen solid 5px;
+    transition: all 0.5s ease;
+}
+
+/*.lr9 {
+    transition: all 0.5s ease;
+    animation: rotate 1s linear infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 4;
+    animation-name: ul;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition-timing-function: .1s;
+    transition-duration: .10s;
+}*/
+
+
+/*.lr9:hover {
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 4;
+    animation-name: ul;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition-timing-function: .1s;
+    transition-duration: .1s;
+}*/

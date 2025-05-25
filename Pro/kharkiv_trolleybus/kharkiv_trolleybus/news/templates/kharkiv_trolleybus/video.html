@@ -1,0 +1,23 @@
+{% load static %}
+{% include 'kharkiv_trolleybus/pattern.html' %}
+<div class="osnova">
+    <h2 class="hg">Все фотографии</h2>
+    <div>
+        {% for file in files %}
+            <div>
+                <video controls width="500" height="300"><source src="{{ file.file.url }}" alt="{{ file.file.name }} type="video/mp4"></video>
+                <div class="st1">{{ file.title }}</div>
+            </div>
+        {% empty %}
+            <p>Видео пока нет.</p>
+        {% endfor %}
+    </div>
+    {% if user.is_authenticated %}
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="register" type="submit">Добавить видео</button>
+    </form>
+    {% else %}
+    {% endif %}
+</div>

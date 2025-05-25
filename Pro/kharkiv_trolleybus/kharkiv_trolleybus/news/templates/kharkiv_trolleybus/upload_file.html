@@ -1,0 +1,9 @@
+{% load static %}
+{% include 'kharkiv_trolleybus/pattern.html' %}
+<div class="osnova lng">
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Загрузить изображение</button>
+    </form>
+</div>

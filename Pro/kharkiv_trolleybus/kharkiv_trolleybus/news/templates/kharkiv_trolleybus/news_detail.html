@@ -1,0 +1,26 @@
+{% load static %}
+{% include 'kharkiv_trolleybus/pattern.html' %}
+<div class="osnova">
+    <h2 class="hg">{{ post.title }}</h2>
+    <div>
+        <p><strong>Дата: </strong>{{ post.date_published }}</p>
+        <p><strong>Источник: </strong>{{ post.sourse }}</p>
+        <p>{{ post.content }}</p>
+    </div>
+    <h3 class="hg">Комментарий</h3>
+    <ul class="comm">
+        {% for comment in post.comments.all %}
+        <li class="comlst"><b class="usrnmc">{{ comment.author }}. {{ comment.created_at }}</b>{{ comment.content }}</li>
+        {% endfor %}
+    </ul>
+    {% if user.is_authenticated %}
+        <h3 class="mb-1">Оставить комментарий:</h3>
+        <form class="mb-1" method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button class="register" type="submit">Отправить</button>
+        </form>
+    {% else %}
+        <p class="mb-1">Для оставления комментария, нужно <a href="{% url 'login' %}">войти.</a></p>
+    {% endif %}
+</div>

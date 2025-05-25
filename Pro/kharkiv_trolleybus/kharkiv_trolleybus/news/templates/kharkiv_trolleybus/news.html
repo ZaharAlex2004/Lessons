@@ -1,0 +1,14 @@
+{% load static %}
+{% include 'kharkiv_trolleybus/pattern.html' %}
+<div class="osnova lng">
+    <h2 class="hg">Все новости</h2>
+    <ul class="list-group news_list">
+        {% for post in news %}
+            <a class="register" href="{% url 'news_detail' post.pk %}">{{ post.date_published }}. {{ post.title }}</a>
+        {% endfor %}
+        {% if user.is_authenticated %}
+            <a class="register" href="{% url 'create_news' %}">Создать новости</a>
+        {% else %}
+        {% endif %}
+    </ul>
+</div>

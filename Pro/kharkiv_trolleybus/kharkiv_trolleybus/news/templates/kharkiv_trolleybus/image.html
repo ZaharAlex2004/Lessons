@@ -1,0 +1,23 @@
+{% load static %}
+{% include 'kharkiv_trolleybus/pattern.html' %}
+<div class="osnova">
+    <h2 class="hg">Все фотографии</h2>
+        <div id="grid3">
+            {% for file in files %}
+                <div class="i48">
+                    <img src="{{ file.file.url }}" alt="{{ file.file.name }}" class="i4">
+                    <p>{{ file.title }}</p>
+                </div>
+            {% empty %}
+                <p>Фото пока нет.</p>
+            {% endfor %}
+        </div>
+    {% if user.is_authenticated %}
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="register" type="submit">Добавить фото</button>
+    </form>
+    {% else %}
+    {% endif %}
+</div>

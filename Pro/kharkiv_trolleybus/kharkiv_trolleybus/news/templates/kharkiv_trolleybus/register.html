@@ -1,0 +1,23 @@
+{% load static %}
+{% include 'kharkiv_trolleybus/pattern.html' %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/developerlogin.css' %}">
+<div class="osnova">
+    <div class="container">
+        <div class="frame">
+            <div class="nav">
+                <ul>
+                    <li class="signin-inactive li4"><a class="btn" href="{% url 'login' %}">Войти</a></li>
+                    <li class="signup-active li4"><a class="btn" href="{% url 'register' %}">Зарегестрироваться </a></li>
+                </ul>
+            </div>
+            <h2 class="hg">Регистрация</h2>
+            <form class="form-signup" method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button class="btn-animate_2" type="submit">Зарегистрировться</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="{% static 'js/JQuery.js' %}"></script>
+<script src="{% static 'js/developer.js' %}"></script>

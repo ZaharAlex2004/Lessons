@@ -1,0 +1,25 @@
+{% load static %}
+{% include 'kharkiv_trolleybus/pattern.html' %}
+<div class="osnova">
+    <h2 class="hg">Создать новость</h2>
+    <form class="i5" method="post">
+        {% csrf_token %}
+        <div>
+            <label for="{{ form.name.id_for_label }}">Название:</label>
+            {{ form.title }}
+        </div>
+        <div>
+            <label for="{{ form.source.id_for_label }}">Источник:</label>
+            {{ form.sourse }}
+        </div>
+        <div class="lb10">
+            <label class="lb9" for="{{ form.content.id_for_label }}">Статья:</label>
+            {{ form.content }}
+        </div>
+        <div class="lb11">
+            <label for="{{ form.date_published.id_for_label }}">Дата:</label>
+            {{ form.date_published }}
+        </div>
+        <button class="register" type="submit">Создать</button>
+    </form>
+</div>

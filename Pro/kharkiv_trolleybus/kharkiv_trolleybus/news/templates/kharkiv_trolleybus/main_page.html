@@ -1,0 +1,74 @@
+{% load static %}
+{% include 'kharkiv_trolleybus/pattern.html' %}
+<div class="osnova">
+    <table class="">
+    <h2 class="hg">Добро пожаловать на сайт!</h2>
+    <h3 class="grd6">Описание</h3>
+    <div class="flex-countainer flex-item" id="grid2">
+        <h2 class="r1 b3">Новости:</h2>
+        <br>
+        <ul class="f77">
+            {% for post in news %}
+            <li class="l3">
+                <div class="c33">
+                    <a class="register2" href="{% url 'news_detail' post.pk %}">{{ post.date_published }}, {{ post.title }}</a>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="v3">
+        <p>Этот сайт посвящен транспорту! <b>Троллейбус был открыт 5 мая 1939 году. Первый маршрут связал от <abbr title="Центральный парк культуры и отдыха имени"> ЦПКиО им.</abbr> Горького до пл. Тевелева(Ныне Конституции).</b> В настоящее время функционирует
+            27 маршрута и 2 депо + 1 Салтовское трамвайное депо для троллейбусов PTS-12, протяжкенность 259,9 км, обслуживает моделью <i> ЗиУ-682.016.02,Богдан-Т701117,ЛАЗ-Е183А1,ЛАЗ-Е301D1,PTS-12,Scoda-14tr, Scoda-15tr.</i>. В системе 254 троллейбусов.</p>
+    </div>
+    <div><img src="{% static 'img/8404.jpg' %}" class="t38"><i class="">Троллейбус Богдан-Т70117 47-го маршрута</i></div>
+    <div class="cle1">
+
+    </div>
+</table>
+
+<section class="sec1">
+    <div class="slider slider-item slick-arrow">
+        <div><img src="{% static 'img/kht_bogdan-t701_3615_20210509_m1.jpg' %}" class="i44 item-block"></div>
+        <div><img src="{% static 'img/kht_laz-e183_2103_20120411_x1.jpg' %}" class="i44 item-block"></div>
+        <div><img src="{% static 'img/kht_ziu682_3311_20090802_v1.jpg' %}" class="i44 item-block"></div>
+        <div><img src="{% static 'img/kht_skoda-15tr_2504_20171014_v4.jpg' %}" class="i44 item-block"></div>
+        <div><img src="{% static 'img/kht_pts12_2727_20210606_m1.jpg' %}" class="i44 item-block"></div>
+        <div><img src="{% static 'img/IMG_20200202_153502.jpg' %}" class="i44 item-block"></div>
+        <div><img src="{% static 'img/1530508.jpg' %}" class="i44 item-block"></div>
+        <div><img src="{% static 'img/1530497.jpg' %}" class="i44 item-block"></div>
+        <div><img src="{% static 'img/1504298.jpg' %}" class="i44 item-block"></div>
+        <div><img src="{% static 'img/1465894.jpg' %}" class="i44 item-block"></div>
+    </div>
+</section>
+<section>
+    <a href="{% static 'img/1511796.png' %}"><img src="{% static 'img/1511796.png' %}" class="i56"></a>
+</section>
+<h3 class="grd6">Что нового?</h3>
+<div id="grid" class="grd7">
+    {% for file in files %}
+        <div class="i48">
+            <img src="{{ file.file.url }}" alt="{{ file.file.name }}" class="i4">
+            <p>{{ file.title }}</p>
+        </div>
+    {% empty %}
+        <p>Фото пока нет.</p>
+    {% endfor %}
+</div>
+<section class="sec1">
+    <div>
+        <footer aligh="right">
+            <td>
+                <p>&copy; 2021-2025, created by Zakharchenko Alexander</p>
+            </td>
+        </footer>
+    </div>
+</section>
+
+<a href="#begin" class="btnMain a77">В начало</a>
+
+<script type="text/javascript" src="{% static 'js/JQuery.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/slick.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/main_2.js' %}"></script>
+</div>
