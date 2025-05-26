@@ -2,7 +2,7 @@
 
 Склонуйте репозиторій на локальну машину:
 ```bash
-git clone https://github.com/ZaharAlex2004/Lessons.git
+git clone https://github.com/ZaharAlex2004/lessons_ubuntu.git
 ```
 
 Після цього перейдіть до директорії проекту:
@@ -32,6 +32,11 @@ docker compose up --build
 Після зупинки, для нормального запуска введіть команду:
 ```bash
 docker compose down
+```
+
+Для роботи з FastAPI та websoket введіть команду
+```bash
+daphne kharkiv_trolleybus.asgi:application
 ```
 
 ### Посилання на перехід до сайту:

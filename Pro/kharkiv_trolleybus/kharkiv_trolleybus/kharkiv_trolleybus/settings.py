@@ -44,10 +44,21 @@ CELERY_BEAT_SCHEDULE = {
     },
 }
 
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('127.0.0.1', 6379)],
+        },
+    },
+}
+
 # Application definition
 
 INSTALLED_APPS = [
     'news',
+    'channels',
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -84,6 +95,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'kharkiv_trolleybus.wsgi.application'
+ASGI_APPLICATION = "kharkiv_trolleybus.asgi.application"
 
 
 # Database
@@ -143,7 +155,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 STATICFILES_DIRS = [
-    BASE_DIR / "static",
+    BASE_DIR / "news" / "static",
 ]
 
 MEDIA_ROOT = BASE_DIR / 'media'

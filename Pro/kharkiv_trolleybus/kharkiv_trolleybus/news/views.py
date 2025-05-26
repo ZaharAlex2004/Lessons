@@ -7,16 +7,27 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404, redirect
 from django.views.generic import CreateView
 from typing import Any
+from rest_framework import viewsets
+from channels.layers import get_channel_layer
+from asgiref.sync import async_to_sync
 
 from .tasks import send_registration_email, send_promotional_email
 from .forms import *
 from .models import *
+from .serializers import *
+
+class NewsViewSet(viewsets.ModelViewSet):
+    queryset = News.objects.all()
+    serializer_class = NewsSerializer
 
 def main_page(request):
     today = date.today()
     news = News.objects.all().order_by('-date_published')
     files = UploadFiles.objects.all().order_by('-uploaded_at')
     return render(request, 'kharkiv_trolleybus/main_page.html', {'today': today, 'news': news, 'title':'Харьковский троллейбус - главная страница', 'files': files})
+
+def chrome_devtools_dummy(request):
+    return JsonResponse({}, status=200)
 
 def register(request):
     """Регистрация нового пользователя и отправка имейлов."""
@@ -147,6 +158,14 @@ def news_detail(request, pk: Any):
                 comment.post = post
                 comment.author = request.user
                 comment.save()
+                channel_layer = get_channel_layer()
+                async_to_sync(channel_layer.group_send)(
+                    "news_group",
+                    {
+                        "type": "chat_message",
+                        "message": f"New comment on post {post.title}"
+                    }
+                )
                 return redirect('news_detail', pk=post.pk)
         else:
             return redirect('login')

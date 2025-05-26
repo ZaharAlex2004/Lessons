@@ -71,4 +71,30 @@
 <script type="text/javascript" src="{% static 'js/JQuery.js' %}"></script>
 <script type="text/javascript" src="{% static 'js/slick.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'js/main_2.js' %}"></script>
+<script type="text/javascript">
+    {% if user.is_authenticated %}
+        const userId = "{{ user.id }}";
+        console.log("User ID from Django:", userId);
+
+        const socket = new WebSocket(`ws://${window.location.host}/ws/${userId}`);
+
+        socket.onopen = function(event) {
+            const message = { content: "Hello, FastAPI!" };
+            socket.send(JSON.stringify(message));
+        };
+
+        socket.onmessage = function(event) {
+            console.log("Received: " + event.data);
+        };
+
+        socket.onclose = function(event) {
+            console.log("WebSocket closed");
+        };
+    {% else %}
+        <script type="text/javascript">
+            console.error("User not authenticated!");
+        </script>
+    {% endif %}
+</script>
+
 </div>
