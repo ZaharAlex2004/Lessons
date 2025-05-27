@@ -17,21 +17,14 @@ from channels.routing import ProtocolTypeRouter, URLRouter
 from channels.auth import AuthMiddlewareStack
 from news.ws.consumers import NewsConsumer
 from news.ws import routing
-#from news.routing import websocket_urlpatterns
-
-app = FastAPI()
+from fastapi_app.main import app
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'kharkiv_trolleybus.settings')
-
-active_connections: List[WebSocket] = []
-
-@app.get("/")
-def read_root():
-    return {"message": "Welcome to the FastAPI!"}
 
 application = ProtocolTypeRouter({
     "http": get_asgi_application(),
     "websocket": URLRouter({
         path("ws/<str:user_id>", NewsConsumer.as_asgi()),
     }),
+    "fastapi": app,
 })

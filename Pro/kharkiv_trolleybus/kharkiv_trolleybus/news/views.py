@@ -1,24 +1,32 @@
-from datetime import date
+import httpx
 
-from django.http import request, JsonResponse, HttpResponse, HttpRequest
+from datetime import date
+from django.http import JsonResponse, HttpRequest
 from django.core.mail import send_mail
+from rest_framework import status
+from rest_framework.views import APIView
+from rest_framework.response import Response
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404, redirect
-from django.views.generic import CreateView
 from typing import Any
 from rest_framework import viewsets
 from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
 
-from .tasks import send_registration_email, send_promotional_email
 from .forms import *
 from .models import *
-from .serializers import *
+from .api.serializers import *
 
 class NewsViewSet(viewsets.ModelViewSet):
     queryset = News.objects.all()
     serializer_class = NewsSerializer
+
+class FastAPIView(APIView):
+    async def get(self, request):
+        async with httpx.AsyncClient() as client:
+            response = await client.get("http://127.0.0.1:8000/fastapi/")
+        return JsonResponse(response.json())
 
 def main_page(request):
     today = date.today()

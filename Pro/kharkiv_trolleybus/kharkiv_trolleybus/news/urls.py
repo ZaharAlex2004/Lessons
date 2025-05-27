@@ -29,8 +29,7 @@ urlpatterns = [
     path('logout/', views.user_logout, name='logout'),
     path('login/', views.user_login, name='login'),
     path('facts/', views.facts_view, name='facts'),
-    path('upload_img/', views.upload_imgs, name='upload_img'),
-    path('.well-known/appspecific/com.chrome.devtools.json', chrome_devtools_dummy),
+    path('upload_img/', views.upload_imgs, name='upload_img')
 ]
 
 if settings.DEBUG:

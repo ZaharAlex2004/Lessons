@@ -11,6 +11,7 @@ services:
     depends_on:
       - redis
 
+
   redis:
     image: "redis:alpine"
     container_name: redis
@@ -37,10 +38,12 @@ services:
     depends_on:
       - redis
 
+
   fastapi:
     build: .
-    command: uvicorn kharkiv_trolleybus.fastapi_app:app --host 127.0.0.1 --port 8000
+    command: uvicorn fastapi_app.main:app --host 0.0.0.0 --port 8000
     ports:
       - "8001:8000"
     volumes:
       - .:/app
+

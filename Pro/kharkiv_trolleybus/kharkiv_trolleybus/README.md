@@ -39,6 +39,10 @@ docker compose down
 daphne kharkiv_trolleybus.asgi:application
 ```
 
+```bash
+uvicorn fastapi_app.main:app --reload
+```
+
 ### Посилання на перехід до сайту:
 
 ```bash

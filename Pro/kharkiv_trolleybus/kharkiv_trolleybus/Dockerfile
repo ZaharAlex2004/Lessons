@@ -9,4 +9,4 @@ COPY . /app/
 
 EXPOSE 8000
 
-CMD ["uvicorn", "kharkiv_trolleybus.fastapi_app:app", "--host", "python", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["uvicorn", "fastapi_app.main:app", "--host", "python", "manage.py", "runserver", "0.0.0.0:8000"]
